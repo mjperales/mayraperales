@@ -86,7 +86,7 @@ module.exports = function(grunt) {
                     {
                         expand: true,
                         cwd: 'images/',
-                        src: ['**/*.{png,jpg,jpeg,gif,svg}'],
+                        src: ['**/*.{png,jpg,jpeg,gif,svg}', '!sprite.symbol.svg'],
                         dest: 'min/images/'
                     }
                 ]
@@ -166,13 +166,14 @@ module.exports = function(grunt) {
     grunt.registerTask('default', [
         'concat',
         'uglify',
-        'newer:imagemin',
         'newer:sass',
         'newer:postcss',
         'newer:cssmin',
         'watch'
     ]);
 
+    // Image min
+    grunt.registerTas('imagemin', ['imagemin']);
     // SVG Icons
     grunt.registerTask('svg', ['svg_sprite']);
 };
