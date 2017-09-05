@@ -46,7 +46,7 @@
 
     <body>
         <?php // Our SVG Library - Do not remove! ?>
-        <?php echo @file_get_contents("images/svg/sprite.symbol.svg"); ?>
+        <?php echo @file_get_contents("images/svg/symbol/svg/sprite.symbol.svg"); ?>
 
         <div class="mjp-layout-container">
 
