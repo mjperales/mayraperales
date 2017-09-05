@@ -1,27 +1,8 @@
 /*********************
 ENTRY CONTENT
 *********************/
-.tcu-entry-content > {
-
-    ul, ol {
-
-        li {
-            margin-left: $space-l;
-        }
-
-    }
-
-    dd {
-        color: $dark-grey;
-        font-size: 0.9em;
-        margin-bottom: $space-m;
-        margin-left: 0;
-    }
-
-}
-
 // Unstyled lists
-.tcu-unstyled-list {
+.mjp-unstyled-list {
   list-style-type: none;
   @include margin(0 null);
 

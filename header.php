@@ -18,7 +18,7 @@
         $sitename = 'Mayra Perales';
         $pagetitle;
 
-        if(isset($pagetitle)){
+        if (isset($pagetitle)){
             echo "<title>".$sitename." | ".$pagetitle."</title>";
         }
         else {
@@ -26,7 +26,7 @@
         }
         ?>
 
-        <?php // mobile meta?>
+        <?php // mobile meta ?>
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -52,7 +52,7 @@
 
             <header class="mjp-header mjp-layout-constrain cf" role="banner">
 
-                <button class="mjp-button mjp-button--transparent mjp-hamburger mjp-hamburger--squeeze cf" type="button">
+                <button class="mjp-button mjp-overlay-open mjp-button--transparent mjp-hamburger mjp-hamburger--squeeze cf" type="button">
                     Menu
                     <span class="mjp-hamburger-box">
                         <span class="mjp-hamburger-inner"></span>
@@ -73,7 +73,7 @@
                      */
                     ?>
                     <a aria-hidden="true" href="#main" class="mjp-skip-nav mjp-visuallyhidden">Skip to main content</a>
-                    <nav>
+                    <nav class="mjp-top-nav cf">
                     	<ul>
                             <li><a href="#">Work</a></li>
                             <li><a href="#">About</a></li>
@@ -81,21 +81,4 @@
                     	</ul>
                     </nav>
                 </div>
-
-                <?php // #menu-main-menu for meanmenu.js?>
-                <!-- <nav class="mjp-layout-constrain mjp-main-nav mjp-pad-t0 mjp-pad-b0">
-
-                    <?php
-                    /**
-                     * Make sure to have a container with the #main ID
-                     * include it in the main content
-                     */
-                    ?>
-                    <a aria-hidden="true" href="#main" class="mjp-skip-nav mjp-visuallyhidden">Skip to main content</a>
-                    <ul class="mjp-top-nav cf">
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav> -->
             </header><!-- end of .mjp-header -->

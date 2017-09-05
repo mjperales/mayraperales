@@ -28,44 +28,6 @@ Layout
     width: 100%;
 }
 
-.mjp-layoutwrap--dark {
-    @extend %mjp-layoutwrap;
-    background-color: $black;
-    color: $white;
-    padding: $space-m;
-
-    blockquote {
-        border-left: 10px solid $white;
-    }
-}
-
-.mjp-layoutwrap--dark--border {
-    @extend %mjp-layoutwrap;
-    border-bottom: 3px solid $dark-grey;
-}
-
-.mjp-layoutwrap--purple {
-    @extend %mjp-layoutwrap;
-    background-color: $purple;
-    color: $white;
-    padding: $space-l;
-
-    blockquote {
-        border-left: 10px solid $white;
-    }
-}
-
-.mjp-layoutwrap--hornedfrog-grey {
-    @extend %mjp-layoutwrap;
-    background-color: $horned-frog-grey;
-    color: $white;
-    padding: $space-l;
-
-    blockquote {
-        border-left: 10px solid $white;
-    }
-}
-
 .mjp-layoutwrap--transparent {
     background-color: transparent;
     padding: $space-l $space-m $space-l;
@@ -74,11 +36,4 @@ Layout
         padding-left: 0;
         padding-right: 0;
     }
-}
-
-.mjp-layoutwrap--grey {
-    @extend %mjp-layoutwrap;
-    background-color: $light-grey;
-    padding: $space-l 1.2em;
-    padding: $space-l;
 }

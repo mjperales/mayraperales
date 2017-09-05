@@ -173,7 +173,7 @@ module.exports = function(grunt) {
     ]);
 
     // Image min
-    grunt.registerTas('imagemin', ['imagemin']);
+    grunt.registerTask('imagemin', ['imagemin']);
     // SVG Icons
     grunt.registerTask('svg', ['svg_sprite']);
 };

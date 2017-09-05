@@ -1,7 +1,7 @@
 /*************************
 Tables
 *************************/
-.tcu-table {
+.mjp-table {
 
     width: 100%;
     @include margin($space-m null);
@@ -27,6 +27,6 @@ Tables
 
 }
 
-.tcu-table--border {
+.mjp-table--border {
     border: 1px solid $grey;
 }

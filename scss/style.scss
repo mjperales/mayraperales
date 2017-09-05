@@ -10,7 +10,6 @@ Stylesheet: Main Stylesheet
 @import "core/mixins";
 @import "core/helpers";
 @import "core/base";
-@import "core/animations";
 
 // LAYOUT
 @import "layout/layout";
@@ -22,13 +21,11 @@ Stylesheet: Main Stylesheet
 @import "elements/buttons";
 @import "elements/typography";
 @import "elements/lists";
-@import "elements/arrows";
 @import "elements/inputs";
 @import "elements/tables";
 
 // NAVIGATION
 @import "components/mainnav";
-@import "components/mobilenav";
 
 // COMPONENTS
 @import "components/forms";

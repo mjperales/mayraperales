@@ -15,30 +15,6 @@ body {
 TYPOGRAPHY
 *********************/
 
-@font-face {
-    font-family: 'eurostileregular';
-    font-style: normal;
-    font-weight: 400;
-    src: local('eurostileregular'),
-        url('fonts/eurostile-webfont.woff2') format('woff2'),
-        url('fonts/eurostile-webfont.woff') format('woff'),
-        url('fonts/eurostile-webfont.ttf') format('truetype'),
-        url('fonts/eurostile-webfont.eot') format('embedded-opentype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'moonface_scriptbold';
-    font-style: normal;
-    font-weight: 400;
-    src: local('moonface_scriptbold'),
-        url('fonts/moonface-script-bold-webfont.woff2') format('woff2'),
-        url('fonts/moonface-script-bold-webfont.woff') format('woff'),
-        url('fonts/moonface-script-bold-webfont.ttf') format('truetype'),
-        url('fonts/moonface-script-bold-webfont.eot');
-    font-display: swap;
-}
-
 /* cabin-regular - latin */
 @font-face {
     font-family: 'Cabin';
@@ -172,7 +148,5 @@ h6,
     margin: $space-s 0;
 }
 
-.mjp-moonface  { font-family: $moonface !important; }
-.mjp-eurostile { font-family: $eurostile !important; }
 .mjp-cabin     { font-family: $cabin !important; }
 .mjp-arvo      { font-family: $arvo !important; }
