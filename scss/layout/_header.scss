@@ -1,4 +1,19 @@
+.mjp-header {
+    /*
+     * We add this so our button
+     * is absolute positioned
+     * relative to the header
+     */
+    position: relative;
+}
 .mjp-header__site-title {
+    float: none;
+    clear: both;
+    text-align: center;
+    @include media( $small-screen ) {
+        float: left;
+    }
+
     a {
         color: $black;
 

@@ -2,7 +2,7 @@
 BUTTONS
 *********************/
 
-.tcu-button {
+.mjp-button {
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
@@ -16,464 +16,25 @@ BUTTONS
     }
 }
 
-.tcu-button--primary {
-    background-color: $purple;
-    color: $white;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
+.mjp-button--transparent {
+    background-color: transparent;
+    border: 2px solid $black;
+    color: $black;
     font-size: 22px;
     font-size: 1.375rem;
-
-    /* Hover effects are located in _animations */
-}
-
-.tcu-button--cabin {
-    background-color: $purple;
-    color: $white;
-    font-family: $cabin;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 19.2px;
-    font-size: 1.2rem;
-
-    &:hover,
-    &:active {
-        color: $white;
-    }
-}
-
-.tcu-button--secondary {
-    background-color: $white;
-    border: 1px solid $grey;
-    color: $text-color;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 22px;
-    font-size: 1.375rem;
-
-    /* Hover effects are located in _animations */
-    &:hover,
-    &:active {
-        color: $white;
-    }
-
-    &:focus {
-        color: $white;
-        -webkit-box-shadow: $focus-black;
-                box-shadow: $focus-black;
-    }
 }
 
 // back-to-top
-.tcu-top.tcu-is-visible {
+.mjp-top.mjp-is-visible {
     /* the button becomes visible */
     opacity: 1;
     visibility: visible;
 }
-.tcu-top.tcu-fade-out {
+.mjp-top.mjp-fade-out {
     /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
     opacity: .5;
 }
-.tcu-top {
+.mjp-top {
     background: rgba(163, 162, 172, 0.95) url(../images/svg/cd-top-arrow.svg) no-repeat center 50%;
     border: none;
     border-radius: 60px;
@@ -501,34 +62,34 @@ BUTTONS
         outline: dotted thin;
     }
 }
-.tcu-top.tcu-is-visible,
-.tcu-top.tcu-fade-out,
-.no-touch .tcu-top:hover {
+.mjp-top.mjp-is-visible,
+.mjp-top.mjp-fade-out,
+.no-touch .mjp-top:hover {
     -webkit-transition: opacity .3s 0s, visibility 0s 0s;
     transition: opacity .3s 0s, visibility 0s 0s;
 }
-.tcu-top.tcu-is-visible {
+.mjp-top.mjp-is-visible {
     /* the button becomes visible */
     opacity: 1;
     visibility: visible;
 }
-.tcu-top.tcu-fade-out {
+.mjp-top.mjp-fade-out {
     /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
     opacity: .6;
 }
-.no-touch .tcu-top:hover {
+.no-touch .mjp-top:hover {
     background-color: $horned-frog-grey;
     opacity: 1;
 }
 
-.tcu-top {
+.mjp-top {
     @include media( $medium-screen ) {
         right: 20px;
         bottom: 20px;
     }
 }
 
-.tcu-top {
+.mjp-top {
     @include media( $medium-screen ) {
         bottom: 30px;
         height: 60px;

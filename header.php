@@ -11,6 +11,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <?php
+        /**
+         * So I can have different titles
+         * on each page
+         */
         $sitename = 'Mayra Perales';
         $pagetitle;
 
@@ -46,15 +50,40 @@
 
         <div class="mjp-layout-container">
 
-            <header class="mjp-header cf" role="banner">
+            <header class="mjp-header mjp-layout-constrain cf" role="banner">
 
-                <div class="mjp-layout-constrain">
-                    <h1 class="h3 mjp-mar-b0 mjp-header__site-title"><a aria-label="Go back to the homepage" href="/">Mayra Perales</a></h1>
-                    <h2 class="h4 mjp-cabin mjp-mar-t0">Front &amp; Back End Developer</h2>
+                <button class="mjp-button mjp-button--transparent mjp-hamburger mjp-hamburger--squeeze cf" type="button">
+                    Menu
+                    <span class="mjp-hamburger-box">
+                        <span class="mjp-hamburger-inner"></span>
+                    </span>
+                </button>
+
+                <div class="mjp-header__site-title">
+                    <h1 class="h3 mjp-mar-b0"><a aria-label="Go back to the homepage" href="/">Mayra Perales</a></h1>
+                    <h2 class="h5 mjp-cabin mjp-mar-t0">Front &amp; Back End Developer</h2>
+                </div>
+
+                <div class="mjp-overlay mjp-overlay-hugeinc">
+                    <button type="button" class="mjp-overlay-close">Close</button>
+                    <?php
+                    /**
+                     * Make sure to have a container with the #main ID
+                     * include it in the main content
+                     */
+                    ?>
+                    <a aria-hidden="true" href="#main" class="mjp-skip-nav mjp-visuallyhidden">Skip to main content</a>
+                    <nav>
+                    	<ul>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                    	</ul>
+                    </nav>
                 </div>
 
                 <?php // #menu-main-menu for meanmenu.js?>
-                <nav class="mjp-layout-constrain mjp-main-nav mjp-pad-t0 mjp-pad-b0">
+                <!-- <nav class="mjp-layout-constrain mjp-main-nav mjp-pad-t0 mjp-pad-b0">
 
                     <?php
                     /**
@@ -68,5 +97,5 @@
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                </nav>
+                </nav> -->
             </header><!-- end of .mjp-header -->

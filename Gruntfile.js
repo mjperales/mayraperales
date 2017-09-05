@@ -1,5 +1,24 @@
 module.exports = function(grunt) {
     grunt.initConfig({
+        // Let's combine all our JS files into one
+        concat: {
+            // Front-end
+            main: {
+                src: [
+                    'js/classie.js',
+                    'js/scripts.js'
+                ],
+                dest: 'js/concat/all-scripts.js'
+            },
+        },
+        // Let's minimize our JS files
+        uglify: {
+            // Front-end
+            main: {
+                src: 'js/concat/all-scripts.js',
+                dest: 'js/min/all-scripts.min.js'
+            }
+        },
         //  Let's compile our SASS into CSS
         sass: {
             dist: {
@@ -33,7 +52,7 @@ module.exports = function(grunt) {
                 syntax: require('postcss-scss'), // work with SCSS directly
                 processors: [
                     require('autoprefixer')({ browsers: '> 5%, last 2 versions, Firefox ESR, Opera 12.1' }),
-                    require('pixrem')()
+                    // require('pixrem')()
                 ]
             },
 
@@ -113,14 +132,27 @@ module.exports = function(grunt) {
         watch: {
             css: {
                 files: ['scss/**/*.scss'],
-                tasks: ['sass', 'newer:postcss']
+                tasks: ['sass', 'newer:postcss'],
+                options: {
+                    spawn: false
+                }
             },
-            options: {
-                spawn: false
-            }
+
+            scripts: {
+                files: [
+                    'js/classie.js',
+                    'js/scripts.js'
+                ],
+                tasks: ['concat'],
+                options: {
+                    spawn: false
+                },
+            },
         }
     });
 
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -131,11 +163,13 @@ module.exports = function(grunt) {
 
     // Development workflow
     grunt.registerTask('default', [
+        'concat',
+        'uglify',
         'newer:imagemin',
         'newer:sass',
         'newer:postcss',
         'newer:cssmin',
-        'newer:watch'
+        'watch'
     ]);
 
     // SVG Icons
