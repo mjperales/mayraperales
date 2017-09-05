@@ -1,0 +1,72 @@
+/*********************
+HELPER CLASSES
+*********************/
+
+/*Visiually Hidden*/
+.mjp-visuallyhidden {
+    border: 0px none;
+    clip: rect(0px, 0px, 0px, 0px);
+    font-size: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    width: 1px;
+}
+
+/* ***********************************************************
+ * updated helper classes to reflect spacing variables
+ * IMPORTANT: Only use the ones below.
+ *************************************************************/
+
+ /* Margin bottom */
+.mjp-below4  { margin-bottom: 4px  !important; }
+.mjp-below8  { margin-bottom: 8px !important; }
+.mjp-below16 { margin-bottom: 16px !important; }
+.mjp-below32 { margin-bottom: 32px !important; }
+.mjp-below64 { margin-bottom: 64px !important; }
+
+/* Margin top */
+.mjp-top4  { margin-top: 4px !important; }
+.mjp-top8  { margin-top: 8px !important; }
+.mjp-top16 { margin-top: 16px !important;}
+.mjp-top32 { margin-top: 32px !important;}
+.mjp-top64 { margin-top: 64px !important;}
+
+/* Remove Padding */
+.mjp-pad-t0  { padding-top: 0 !important;    }
+.mjp-pad-b0  { padding-bottom: 0 !important; }
+.mjp-pad-r0  { padding-right: 0 !important;  }
+.mjp-pad-l0  { padding-left: 0 !important;   }
+.mjp-pad-tb0 { padding-bottom: 0 !important; padding-top: 0 !important; }
+.mjp-pad-lr0 { padding-right: 0 !important; padding-left: 0 !important; }
+
+/* Remove Margin */
+.mjp-mar-t0  { margin-top: 0 !important;    }
+.mjp-mar-b0  { margin-bottom: 0 !important; }
+.mjp-mar-l0  { margin-left: 0 !important;   }
+.mjp-mar-r0  { margin-right: 0 !important;  }
+.mjp-mar-tb0 { margin-top: 0 !important; margin-bottom: 0 !important; }
+.mjp-mar-lr0 { margin-left: 0 !important; margin-right: 0 !important; }
+
+/* Text alignment */
+.mjp-alignl { text-align: left !important;   }
+.mjp-alignr { text-align: right !important;  }
+.mjp-alignc { text-align: center !important; }
+
+/* Text transform */
+.mjp-lowercase { text-transform: lowercase !important; }
+.mjp-uppercase { text-transform: uppercase !important; }
+.mjp-small     { font-size: $font-small  }
+
+.mjp-full-width { width: 100% !important; }
+.mjp-line-height-1 { line-height: 1 !important; }
+
+.mjp-not-mobile {
+    display: none;
+
+    @include media( $medium-screen ) {
+        display: block;
+    }
+}

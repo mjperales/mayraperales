@@ -1,0 +1,212 @@
+/*********************
+MAIN NAVIGATION
+*********************/
+.mjp-main-nav {
+    list-style: none;
+    /* Add spacing to top of TCU banner */
+    margin-top: $space-l;
+} /* end .nav */
+
+.mjp-top-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    // Give room for our arrow icon
+    .menu-item-has-children {
+        @include media( $medium-screen ) {
+            padding-right: 25px;
+        }
+    }
+
+    @include media( $medium-screen ) {
+        display: block;
+    }
+
+    ul {
+        @include media( $medium-screen ) {
+            list-style: none;
+        }
+    }
+
+    li {
+        display: block;
+        float: none;
+
+        @include media( $medium-screen ) {
+            border: none;
+            float: left;
+            position: relative;
+        }
+
+        a {
+            color: $purple;
+            display: block;
+            padding: $space-m;
+            text-decoration: none;
+
+            @include media( $medium-screen ) {
+                padding: $space-xs $space-default;
+                text-transform: uppercase;
+            }
+
+            &:hover {
+                border-bottom: 3px solid $black;
+                color: $black;
+                text-decoration: none;
+                font-weight: $font-normal;
+            }
+
+            &:focus {
+                border-bottom: 3px solid $black;
+                color: $black;
+                outline: 1px dotted $black;
+            }
+        }
+    } /* end .menu li */
+}
+
+/* Javascript disabled */
+.no-js .mjp-top-nav .sub-menu {
+    list-style: none;
+
+    @include media( $medium-screen ) {
+        background-color: $light-grey;
+        border-radius: 4px;
+        border-top: 0;
+        -webkit-box-shadow: 0 0 0.125em 0.0625em rgba(118, 118, 118, 0.4);
+                box-shadow: 0 0 0.125em 0.0625em rgba(118, 118, 118, 0.4);
+        /* remove border from .mjp-main-nav */
+        margin-top: 0;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        visibility: hidden;
+        z-index: 8999;
+    }
+    /* Top arrow-up */
+    &::before {
+        @include media( $medium-screen ) {
+            border-bottom: 10px solid $light-grey;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            content: "";
+            height: 0;
+            position: absolute;
+            left: 25px;
+            top: -9px;
+            width: 0;
+        }
+    }
+
+    li {
+        border-bottom: 1px solid $white;
+        padding-left: $space-l;
+
+        @include media($medium-screen) {
+            border-color: $dark-grey;
+            padding-left: 0;
+        }
+
+        a {
+            color: $white;
+            padding-left: $space-m;
+            padding-right: $space-m;
+
+            @include media( $medium-screen ) {
+                color: $text-color;
+                border-right: 0;
+                display: block;
+                min-width: 200px;
+            }
+
+            &:hover {
+                @include media( $medium-screen ) {
+                    color: $purple;
+                }
+            }
+        }
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+}
+
+.no-js {
+    .mjp-main-nav.mjp-layoutwrap--purple {
+        padding-left: $space-m !important;
+        padding-right: $space-m !important;
+    }
+
+    .mjp-main-nav .sub-menu {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@include media( $medium-screen ) {
+    .no-js .mjp-top-nav {
+        .menu-item-has-children {
+            padding-right: 0;
+
+            > a {
+                @include media( $medium-screen ) {
+                    /* our + character */
+                    &:after {
+                        color: $white;
+                        content: "";
+                        @include arrow-down(FFFFFF);
+                        background-repeat: no-repeat;
+                        background-size: 100% auto;
+                        display: inline-block;
+                        height: 10px;
+                        margin-left: 10px;
+                        width: 10px;
+                    }
+                }
+            }
+        }
+
+        li {
+            float: left;
+            position: relative;
+
+            @include media( $medium-screen ) {
+                border: none;
+                float: left;
+                position: relative;
+            }
+
+            a {
+                border-bottom: 0;
+
+                &:hover {
+                    color: $white;
+                    text-decoration: none;
+                    font-weight: $font-normal;
+
+                    @include media( $medium-screen ) {
+                        color: $secondary-yellow;
+                    }
+                }
+
+                &:focus {
+                    color: $secondary-yellow;
+                    -webkit-box-shadow: $focus-yellow;
+                            box-shadow: $focus-yellow;
+                }
+            }
+            /* showing sub-menus */
+            &:hover ul {
+                @include media( $medium-screen ) {
+                    opacity: 1;
+                    overflow: visible;
+                    -webkit-transition: opacity 400ms ease-in-out;
+                    transition: opacity 400ms ease-in-out;
+                    top: auto;
+                    visibility: visible;
+                }
+            }
+        } /* end .menu ul li */
+    } /* end .nav */
+} // end of media query

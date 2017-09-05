@@ -1,0 +1,21 @@
+/******************************************************************
+FORMS
+******************************************************************/
+/* HTML5 Number spinners settings */
+/* We add basic fieldset styling */
+fieldset {
+    border: 1px solid $dark-grey;
+    margin: $space-m 0;
+    padding: $space-l;
+
+    legend {
+        background: white;
+        font-weight: bold;
+        margin: 0;
+        margin-left: $space-xs;
+        padding: 0 $space-xs;
+    }
+}
+
+
+

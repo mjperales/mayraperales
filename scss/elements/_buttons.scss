@@ -1,0 +1,538 @@
+/*********************
+BUTTONS
+*********************/
+
+.tcu-button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: $font-normal;
+    padding: $space-s $space-default;
+    text-decoration: none !important;
+    vertical-align: middle;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+.tcu-button--primary {
+    background-color: $purple;
+    color: $white;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 1.375rem;
+
+    /* Hover effects are located in _animations */
+}
+
+.tcu-button--cabin {
+    background-color: $purple;
+    color: $white;
+    font-family: $cabin;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 1.2rem;
+
+    &:hover,
+    &:active {
+        color: $white;
+    }
+}
+
+.tcu-button--secondary {
+    background-color: $white;
+    border: 1px solid $grey;
+    color: $text-color;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 1.375rem;
+
+    /* Hover effects are located in _animations */
+    &:hover,
+    &:active {
+        color: $white;
+    }
+
+    &:focus {
+        color: $white;
+        -webkit-box-shadow: $focus-black;
+                box-shadow: $focus-black;
+    }
+}
+
+// back-to-top
+.tcu-top.tcu-is-visible {
+    /* the button becomes visible */
+    opacity: 1;
+    visibility: visible;
+}
+.tcu-top.tcu-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5;
+}
+.tcu-top {
+    background: rgba(163, 162, 172, 0.95) url(../images/svg/cd-top-arrow.svg) no-repeat center 50%;
+    border: none;
+    border-radius: 60px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    height: 60px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    opacity: 0;
+    overflow: hidden;
+    text-indent: 100%;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 60px;
+
+    &:focus {
+        color: $black;
+        -webkit-box-shadow: $focus-black;
+                box-shadow: $focus-black;
+        opacity: 1 !important;
+        outline: dotted thin;
+    }
+}
+.tcu-top.tcu-is-visible,
+.tcu-top.tcu-fade-out,
+.no-touch .tcu-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+.tcu-top.tcu-is-visible {
+    /* the button becomes visible */
+    opacity: 1;
+    visibility: visible;
+}
+.tcu-top.tcu-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .6;
+}
+.no-touch .tcu-top:hover {
+    background-color: $horned-frog-grey;
+    opacity: 1;
+}
+
+.tcu-top {
+    @include media( $medium-screen ) {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+.tcu-top {
+    @include media( $medium-screen ) {
+        bottom: 30px;
+        height: 60px;
+        right: 30px;
+        width: 60px;
+    }
+}

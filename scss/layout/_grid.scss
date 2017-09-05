@@ -1,0 +1,75 @@
+/******************************************************************
+Grid
+******************************************************************/
+
+@include media( $small-screen ) {
+    // Contain floats: nicolasgallagher.com/micro-clearfix-hack/
+    .unit {
+        float: left;
+        padding-left: $gutter;
+        padding-right: $gutter;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        zoom: 1;
+        &::before, &::after { content: ""; display: table; }
+        &::after { clear: both; }
+    }
+
+    /* Use this helper class to control the order of your elements */
+    .last {
+        float: right;
+    }
+
+    .group {
+        background-clip: padding-box;
+        float: left;
+        overflow: hidden;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .lastGroup {
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@include media( $small-screen ) {
+
+    .m-size1of1 { width: 100%; }
+    .m-size1of2 { width: 50%; }
+
+    .m-size1of3 { width: 33.3%; }
+    .m-size2of3 { width: 66.6%; }
+
+    .m-size1of4 { width: 25%; }
+    .m-size3of4 { width: 75% }
+
+    .m-size3of8 { width: 37.5%; }
+    .m-size5of8 { width: 62.5%; }
+    .m-size7of8 { width: 87.5%; }
+    .m-size1of8 { width: 12.5%; }
+
+} // end of media query
+
+@include media( $large-screen ) {
+
+    .size1of1 { width: 100%; }
+    .size1of2 { width: 50%; }
+
+    .size1of3 { width: 33.3%; }
+    .size2of3 { width: 66.6%; }
+
+    .size1of4 { width: 25%; }
+    .size3of4 { width: 75% }
+
+    .size3of8 { width: 37.5%; }
+    .size5of8 { width: 62.5%; }
+    .size7of8 { width: 87.5%; }
+    .size1of8 { width: 12.5%; }
+
+} // end of media query
+
+
+

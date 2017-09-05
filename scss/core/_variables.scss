@@ -1,0 +1,104 @@
+/******************************************************************
+Variables - include colors and fonts
+******************************************************************/
+
+// Mobile First Breakpoints
+$small-screen:              30.0625em !default; // 481px
+$medium-screen:             43.75em !default;   // 700px
+$large-screen:              62.5em !default;    // 1000px
+$xl-screen:                 75em !default;      // 1200px
+
+/*********************
+PAGE LENGTHS
+*********************/
+
+$length:                    1200px;
+$gutter:                    16px;
+$max-text-length:           650px;
+
+
+/* Alert
+   Note: We use a 5% darkening function for
+   the alert colors below.
+*/
+$alert-yellow:              #EBE16F;
+$alert-red:                 #FBE3e4;
+$alert-green:               #E6EFC2;
+$alert-blue:                #D5EDF8;
+
+/* Primary Colors */
+$white:                     #FFFFFF;
+$black:                     #111111;
+$purple:                    #4D1979;
+$horned-frog-grey:          #A3A9AC;
+
+/* Secondary Colors */
+$secondary-orange:          #F47D20;
+$secondary-yellow:          #F9D44B;
+$secondary-aqua:            #95DACF;
+
+$secondary-blue:            #5E88B4;
+$secondary-tan:             #E2d0A6;
+$secondary-brown:           #83603F;
+
+$secondary-green:           #969300;
+$secondary-teal:            #007B6E;
+
+
+/* Grey */
+$text-color:                #4D4D4A;
+$dark-grey:                 #777777;
+$grey:                      #999999;
+$light-grey:                #EEEEEE;
+$light-grey2:               #CCCCCC;
+
+/*********************
+FOCUS COLORS
+*********************/
+$focus-yellow:              0px 0px 2px rgba(249, 212, 75, 1);
+$focus-black:               0px 0px 2px rgba(17, 17, 17, 1);
+$focus-blue:                0px 0px 2px rgba(30, 140, 190, 1);
+$focus-orange:              0px 0px 2px rgba(244, 125, 32, 1);
+$focus-teal:                0px 0px 2px rgba(0, 123, 110, 1 );
+
+/*********************
+FONTS
+*********************/
+$cabin:                     "Cabin", sans-serif;
+$eurostile:                 "eurostileregular", "Century Gothic", sans-serif;
+$moonface:                  "moonface_scriptbold", cursive;
+$arvo:                      "Arvo", serif;
+
+$font-normal:               400;
+$font-bold:                 700;
+
+$base-font-size:            16px;
+$h1-font-size:              3.125rem; // 50px
+$h2-font-size:              2.5rem;   // 40px
+$h3-font-size:              1.875rem; // 30px
+$h4-font-size:              1.375rem; // 22px
+$h5-font-size:              1rem;     // 16px
+$h6-font-size:              0.9375rem;// 15px
+$font-small:                0.6875em; // 11px
+
+/*********************
+SPACING
+*********************/
+$space-inset-default:       16px 16px 16px 16px;
+$space-inset-xs:            4px 4px 4px 4px;
+$space-inset-s:             8px 8px 8px 8px;
+$space-inset-m:             16px 16px 16px 16px;
+$space-inset-l:             32px 32px 32px 32px;
+$space-inset-xl:            64px 64px 64px 64px;
+$space-stack-default:       0 0 16px 0;
+$space-stack-xs:            0 0 4px 0;
+$space-stack-s:             0 0 8px 0;
+$space-stack-m:             0 0 16px 0;
+$space-stack-l:             0 0 32px 0;
+$space-stack-xl:            0 0 64px 0;
+$space-default:             16px;
+$space-xs:                  4px;
+$space-s:                   8px;
+$space-m:                   16px;
+$space-l:                   32px;
+$space-xl:                  64px;

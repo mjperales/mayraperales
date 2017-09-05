@@ -1,0 +1,84 @@
+/******************************************************************
+Base Stylesheet
+******************************************************************/
+
+// Contain floats: nicolasgallagher.com/micro-clearfix-hack/
+.clearfix,
+.cf {
+    *zoom: 1;
+    &::before,
+    &::after {
+        content: " ";
+        display: table;
+    }
+    &::after {
+        clear: both;
+    }
+}
+
+// BORDER-BOX ALL THE THINGS! (http://paulirish.com/2012/box-sizing-border-box-ftw/)
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {
+    background-color: $white;
+    color: $black;
+}
+
+hr {
+    background-color: $horned-frog-grey;
+    border: 0;
+    height: 3px;
+    margin-bottom: $space-m;
+}
+
+/*********************
+LINK STYLES
+*********************/
+
+a {
+    color: $purple;
+    text-decoration: none;
+
+    /* on hover */
+    &:hover {
+        color: $black;
+    }
+
+    &:focus {
+        color: $black;
+        -webkit-box-shadow: $focus-black;
+                box-shadow: $focus-black;
+    }
+
+    /* on click */
+    &:active {
+        color: $secondary-blue;
+        -webkit-box-shadow: $focus-blue;
+                box-shadow: $focus-blue;
+    }
+
+    /* mobile tap color */
+    &:link {
+        /*
+        this highlights links on iPhones/iPads.
+        */
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+/*********************
+Tables Normalize
+*********************/
+
+pre {
+    background-color: $light-grey;
+    border: 1px solid $light-grey2;
+    padding: $space-m;
+}

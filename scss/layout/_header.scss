@@ -1,0 +1,14 @@
+.mjp-header__site-title {
+    a {
+        color: $black;
+
+        &:hover {
+            color: $black;
+        }
+
+        &:focus {
+            color: $black;
+            outline: 1px dotted $black;
+        }
+    }
+}

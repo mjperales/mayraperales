@@ -1,0 +1,615 @@
+/*********************
+FOOTER STYLES
+*********************/
+
+/***
+ * This entire page needs to be cleaned out with
+ * better documentation and better selector names
+ *****/
+
+.tcu-footer {
+    clear: both;
+    /* So we can have the TCU fountain go over the grey bg */
+    margin-top: -55px;
+    position: relative;
+
+    @include media( $large-screen ) {
+        /* desktop size background image */
+        background: url(../images/footer-desktop-img.png) top center no-repeat;
+    }
+
+    /* Added a sudo element with background color for accessibility */
+    @include media( $medium-screen ) {
+        &:after {
+            background-color: $purple;
+            content: "";
+            /* Height to accommodate only medium screens */
+            height: 427px;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+        }
+    }
+
+    /* Height to accommodate only large screens */
+    @include media( $large-screen ) {
+        &:after {
+            height: 630px;
+        }
+    }
+
+    a {
+        color: $white;
+
+        &:hover {
+            color: $secondary-yellow;
+        }
+
+        &:focus {
+            color: $secondary-yellow;
+            -webkit-box-shadow: $focus-yellow;
+                    box-shadow: $focus-yellow;
+        }
+    }
+}
+
+.tcu-footer__fountain {
+    /* mobile size background image */
+    background: transparent url(../images/mobile-footer-bg.png) center center no-repeat;
+    display: block;
+    height: 600px;
+    margin: 0 auto;
+    max-width: 500px;
+
+    @include media( $small-screen ) {
+        background: transparent;
+        height: 0;
+    }
+}
+
+.tcu-footer__inner {
+    background-color: $purple;
+
+    @include media( $small-screen ) {
+        /* tablet size background image */
+        background: url(../images/tablet-footer-bg.png) top center no-repeat;
+        padding-top: $space-xl;
+    }
+
+    @include media( $large-screen ) {
+        background: transparent;
+    }
+}
+
+.tcu-footer__inner__links {
+    color: $white;
+    font-family: $moonface;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 1.375rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+.tcu-footer__inner__text {
+    color: $white;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 22px;
+    font-size: 1.375rem;
+    margin: $space-m auto $space-l;
+    text-align: center;
+}
+
+.tcu-footer__inner__copyright {
+    background-color: $black;
+    color: $white;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 0 $space-m $space-m;
+    width: 100%;
+
+    /* Give a little padding to both our columns
+     * Clears outline on :focus styles
+     */
+    div {
+        padding: $space-xs;
+    }
+
+    @include media( $large-screen ) {
+        text-align: right;
+        padding-top: $space-m;
+    }
+
+    .tcu-socialmedia {
+        @include margin($space-m null);
+        text-align: left;
+
+        @include media( $large-screen ) {
+            @include margin(0 null);
+        }
+
+        // Make sure we don't select our "Social Media Directory" link
+        a:not(:last-child) {
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+        }
+
+        svg,
+        object,
+        img {
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    @include media( $medium-screen ) {
+        background-color: $white;
+        color: $black;
+    }
+
+    a {
+        color: $white;
+        font-weight: $font-bold;
+
+        &:hover {
+            color: $white;
+            text-decoration: underline;
+        }
+
+        &:focus {
+            color: $secondary-orange;
+            -webkit-box-shadow: $focus-orange;
+                    box-shadow: $focus-orange;
+        }
+
+        @include media( $medium-screen ) {
+            color: $purple;
+
+            &:hover {
+                color: $black;
+                text-decoration: underline;
+            }
+
+            &:focus {
+                color: $black;
+                -webkit-box-shadow: $focus-black;
+                        box-shadow: $focus-black;
+            }
+        }
+    }
+
+    // Make sure our "Social Media Directory" link is aligned with icons
+    span {
+        top: -10px;
+        position: relative;
+    }
+}
+
+.tcu-footer__inner__wrap {
+    @include media( $medium-screen ) {
+        background-color: $black;
+        padding: 0;
+        @include margin(0 null);
+    }
+}
+
+.tcu-footer__inner__wrap__nav {
+    background-color: transparent;
+    color: $white;
+    list-style: none;
+    @include margin(0 null);
+
+    @include media( $medium-screen ) {
+        background-color: transparent;
+        border: 0;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -ms-flex-flow: row nowrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-flow: row nowrap;
+        -ms-flex-pack: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 95%;
+    }
+
+    ul {
+        @include media( $medium-screen ) {
+            margin-top: 0;
+            margin: 0;
+        }
+    }
+
+    li {
+        padding: $space-s $space-xs;
+
+        @include media( $medium-screen ) {
+            display: inline-block;
+            float: left;
+        }
+
+        &:first-child span {
+            @include media( $medium-screen ) {
+                display: none;
+            }
+        }
+
+        span {
+            display: none;
+
+            @include media( $medium-screen ) {
+                display: inline-block;
+                margin-right: $space-s;
+            }
+        }
+
+        a {
+            background-color: transparent;
+            color: $white;
+            text-decoration: none;
+
+            @include media( $medium-screen ) {
+                text-transform: uppercase;
+            }
+
+            &:hover {
+                color: $secondary-yellow;
+            }
+
+            &:focus {
+                color: $secondary-yellow;
+                -webkit-box-shadow: $focus-yellow;
+                        box-shadow: $focus-yellow;
+            }
+        }
+    }
+}
+
+/* Departmental Footer */
+.tcu-footer-departments {
+    background: $light-grey url(../images/frog-texture.jpeg) repeat;
+    // background-size: 121px 38px;
+    border-top: 3px solid $purple;
+    padding: $space-m $space-m $space-xl;
+
+    @include media( $medium-screen ) {
+        background: url(../images/desktop-frog-texture.jpeg);
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .widgettitle {
+        background-color: transparent;
+        color: $text-color;
+    }
+}
+
+.tcu-footer-departments__wordmark,
+.tcu-footer-departments__contact-info {
+    background-color: $white;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-bottom: $space-m;
+    padding: $space-m $space-m;
+    width: 100%;
+
+    @include media( $small-screen ) {
+        margin-left: $space-m;
+        margin-right: $space-m;
+    }
+}
+
+.tcu-footer-departments__widgets {
+    -ms-flex-align: stretch;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+
+    @include media( $medium-screen ) {
+        -ms-flex-flow: row nowrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-flow: row nowrap;
+    }
+}
+
+.tcu-accrediation p {
+    &:first-child {
+        display: none;
+
+        @include media( $large-screen ) {
+            display: block;
+        }
+    }
+}
