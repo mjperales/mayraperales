@@ -35,11 +35,8 @@ BUTTONS
     opacity: .5;
 }
 .mjp-top {
-    background: rgba(163, 162, 172, 0.95) url(../images/svg/cd-top-arrow.svg) no-repeat center 50%;
+    background: transparent;
     border: none;
-    border-radius: 60px;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     display: inline-block;
     height: 60px;
     position: fixed;
@@ -47,7 +44,7 @@ BUTTONS
     right: 10px;
     opacity: 0;
     overflow: hidden;
-    text-indent: 100%;
+    text-align: center;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
     transition: opacity .3s 0s, visibility 0s .3s;
     visibility: hidden;
@@ -78,7 +75,7 @@ BUTTONS
     opacity: .6;
 }
 .no-touch .mjp-top:hover {
-    background-color: $horned-frog-grey;
+    outline: 1px dotted $black;
     opacity: 1;
 }
 

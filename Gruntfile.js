@@ -5,6 +5,7 @@ module.exports = function(grunt) {
             // Front-end
             main: {
                 src: [
+                    'js/velocity.js',
                     'js/classie.js',
                     'js/scripts.js'
                 ],
