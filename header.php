@@ -48,9 +48,9 @@
         <?php // Our SVG Library - Do not remove! ?>
         <?php echo @file_get_contents("images/sprite.symbol.svg"); ?>
 
-        <div class="mjp-layout-container">
+        <div class="mjp-layout-container mjp-layout-constrain">
 
-            <header class="mjp-header mjp-layout-constrain cf" role="banner">
+            <header class="mjp-header cf" role="banner">
 
                 <button class="mjp-button mjp-overlay-open mjp-button--transparent mjp-hamburger mjp-hamburger--squeeze cf" type="button">
                     Menu

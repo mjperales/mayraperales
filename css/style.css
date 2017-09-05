@@ -694,6 +694,11 @@ HELPER CLASSES
   }
 }
 
+.mjp-drop-shadow {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
 /******************************************************************
 Base Stylesheet
 ******************************************************************/
@@ -811,6 +816,20 @@ Layout
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+.mjp-leadon-bg, .mjp-webstandards-bg {
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.mjp-leadon-bg {
+  background: #111111 url("../images/leadon-desktop.jpg") center center no-repeat;
+}
+
+.mjp-webstandards-bg {
+  background: #111111 url("../images/webstandards-desktop.jpg") center center no-repeat;
 }
 
 /******************************************************************
@@ -947,6 +966,7 @@ Grid
   float: none;
   clear: both;
   margin-top: 16px;
+  margin-left: 16px;
   text-align: center;
 }
 @media screen and (min-width: 30.0625em) {
