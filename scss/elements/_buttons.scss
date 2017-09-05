@@ -18,7 +18,7 @@ BUTTONS
 
 .mjp-button--transparent {
     background-color: transparent;
-    border: 2px solid $black;
+    border: 1px solid $black;
     color: $black;
     font-size: 22px;
     font-size: 1.375rem;
@@ -38,7 +38,7 @@ BUTTONS
     background: transparent;
     border: none;
     display: inline-block;
-    height: 60px;
+    height: 50px;
     position: fixed;
     bottom: 40px;
     right: 10px;
@@ -49,7 +49,7 @@ BUTTONS
     transition: opacity .3s 0s, visibility 0s .3s;
     visibility: hidden;
     white-space: nowrap;
-    width: 60px;
+    width: 50px;
 
     &:focus {
         color: $black;
@@ -81,16 +81,9 @@ BUTTONS
 
 .mjp-top {
     @include media( $medium-screen ) {
-        right: 20px;
-        bottom: 20px;
-    }
-}
-
-.mjp-top {
-    @include media( $medium-screen ) {
         bottom: 30px;
-        height: 60px;
-        right: 30px;
-        width: 60px;
+        height: 50px;
+        right: 0;
+        width: 50px;
     }
 }
