@@ -3,36 +3,36 @@
     overlay = document.querySelector( 'div.mjp-overlay' ),
     closeBttn = overlay.querySelector( 'button.mjp-overlay-close' );
     transEndEventNames = {
-    'WebkitTransition': 'webkitTransitionEnd',
-    'MozTransition': 'transitionend',
-    'OTransition': 'oTransitionEnd',
-    'msTransition': 'MSTransitionEnd',
-    'transition': 'transitionend'
+        'WebkitTransition': 'webkitTransitionEnd',
+        'MozTransition': 'transitionend',
+        'OTransition': 'oTransitionEnd',
+        'msTransition': 'MSTransitionEnd',
+        'transition': 'transitionend'
     },
     transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
     support = { transitions : Modernizr.csstransitions };
 
     function toggleOverlay() {
-    if( classie.has( overlay, 'open' ) ) {
-    classie.remove( overlay, 'open' );
-    classie.add( overlay, 'close' );
-    var onEndTransitionFn = function( ev ) {
-    if( support.transitions ) {
-    if( ev.propertyName !== 'visibility' ) return;
-    this.removeEventListener( transEndEventName, onEndTransitionFn );
-    }
-    classie.remove( overlay, 'close' );
-    };
-    if( support.transitions ) {
-    overlay.addEventListener( transEndEventName, onEndTransitionFn );
-    }
-    else {
-    onEndTransitionFn();
-    }
-    }
-    else if( !classie.has( overlay, 'close' ) ) {
-    classie.add( overlay, 'open' );
-    }
+        if( classie.has( overlay, 'open' ) ) {
+            classie.remove( overlay, 'open' );
+            classie.add( overlay, 'close' );
+            var onEndTransitionFn = function( ev ) {
+            if( support.transitions ) {
+                if( ev.propertyName !== 'visibility' ) return;
+                this.removeEventListener( transEndEventName, onEndTransitionFn );
+                }
+                classie.remove( overlay, 'close' );
+            };
+            if( support.transitions ) {
+                overlay.addEventListener( transEndEventName, onEndTransitionFn );
+            }
+            else {
+                onEndTransitionFn();
+            }
+        }
+        else if( !classie.has( overlay, 'close' ) ) {
+            classie.add( overlay, 'open' );
+        }
     }
 
     triggerBttn.addEventListener( 'click', toggleOverlay );
@@ -51,15 +51,15 @@
     var ticking = false;
 
     function swapClass(scroll_pos) {
-    if (scroll_pos > offset) {
-     	$back_to_top.classList.add('mjp-is-visible');
-    } else {
-    $back_to_top.classList.remove('mjp-is-visible');
-    $back_to_top.classList.remove('mjp-fade-out');
-    }
-    if (scroll_pos > offset_opacity) {
-     	$back_to_top.classList.add('mjp-fade-out');
-    }
+        if (scroll_pos > offset) {
+         	$back_to_top.classList.add('mjp-is-visible');
+        } else {
+            $back_to_top.classList.remove('mjp-is-visible');
+            $back_to_top.classList.remove('mjp-fade-out');
+        }
+        if (scroll_pos > offset_opacity) {
+         	$back_to_top.classList.add('mjp-fade-out');
+        }
     }
 
     window.addEventListener('scroll', function(e) {
@@ -74,7 +74,7 @@
     });
 
     $back_to_top.addEventListener('click', function(e){
-    var $body = document.body;
-    Velocity($body, 'scroll', { duration: scroll_top_duration, easing: 'spring', opacity: 1 });
+        var $body = document.body;
+        Velocity($body, 'scroll', { duration: scroll_top_duration, easing: 'spring', opacity: 1 });
     });
 })();
