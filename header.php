@@ -51,7 +51,7 @@
 
         <div class="mjp-layout-container mjp-layout-constrain">
 
-            <header class="mjp-header cf" role="banner">
+            <header class="mjp-header unit size1of1 m-size1of1 cf" role="banner">
 
                 <button class="mjp-button mjp-overlay-open mjp-button--transparent mjp-hamburger mjp-hamburger--squeeze cf" type="button">
                     Menu

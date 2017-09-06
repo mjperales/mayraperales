@@ -1,4 +1,4 @@
-        <footer class="mjp-footer cf">
+        <footer class="mjp-footer unit size1of1 m-size1of1 cf">
             <div class="mjp-socialmedia unit m-size1of1 size1of2">
                 <p><a href="#" title="Instagram"><svg height="30" width="30"><use xlink:href="#instagram"></use></svg></a> Instagram</p>
 
