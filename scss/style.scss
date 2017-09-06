@@ -23,13 +23,14 @@ Stylesheet: Main Stylesheet
 @import "elements/lists";
 @import "elements/inputs";
 @import "elements/tables";
+@import "elements/backgrounds";
 
 // NAVIGATION
 @import "components/mainnav";
 
 // COMPONENTS
 @import "components/forms";
-@import "components/modals";
+@import "components/cards";
 
 // PRINT STYLESHEET
 @media print {

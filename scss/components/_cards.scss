@@ -1,0 +1,17 @@
+.mjp-cards {
+    margin-top: $space-m;
+    margin-bottom: $space-m;
+
+    a {
+        display: block;
+        clear: both;
+    }
+}
+.mjp-cards__image {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+            box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+    -webkit-transition: -webkit-box-shadow 0.2s ease;
+    transition: -webkit-box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+}

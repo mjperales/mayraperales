@@ -15,21 +15,21 @@ include 'header.php';
             TCU - Texas Christian University
         </p>
 
-        <div class="group unit size1of1 m-size1of1 cf">
-            <div class="unit size5of8 m-size1of1 mjp-pad-l0 mjp-cards">
-                <div class="mjp-leadon-bg mjp-modal"></div>
-                <a class="mjp-top16" href="#">TCU Lead On Website</a>
-            </div>
-
-            <div class="unit size3of8 m-size1of1 mjp-pad-r0 mjp-cards">
-                <div class="mjp-webstandards-bg mjp-modal"></div>
-                <a class="mjp-top16" href="#">TCU Web Standards</a>
-            </div>
+        <div class="unit size1of1 m-size1of1 mjp-cards">
+            <div class="mjp-webstandards-bg mjp-cards__image"></div>
+            <a class="mjp-top16" href="#">TCU | Web Standards</a>
         </div>
 
-        <div class="unit size1of1 m-size1of1 mjp-pad-lr0 mjp-cards">
-            <div class="mjp-addran-bg mjp-modal"></div>
-            <a class="mjp-top16" href="#">Addran College of Liberal Arts</a>
+        <div class="group unit size1of1 m-size1of1 cf">
+            <div class="unit size5of8 m-size1of1 mjp-cards">
+                <div class="mjp-addran-bg mjp-cards__image"></div>
+                <a class="mjp-top16" href="#">TCU | Addran College of Liberal Arts</a>
+            </div>
+
+            <div class="unit size3of8 m-size1of1 mjp-cards">
+                <div class="mjp-leadon-bg mjp-cards__image"></div>
+                <a class="mjp-top16" href="#">TCU | Lead On</a>
+            </div>
         </div>
 
     </main><!-- end of .unit -->

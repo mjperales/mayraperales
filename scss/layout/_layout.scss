@@ -37,25 +37,3 @@ Layout
         padding-right: 0;
     }
 }
-
-%background-defaults {
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-}
-
-// backgrounds
-.mjp-leadon-bg {
-    background: $black url('../images/leadon-desktop.jpg') center center no-repeat;
-    @extend %background-defaults;
-}
-
-.mjp-webstandards-bg {
-    background: $black url('../images/webstandards-desktop.jpg') center center no-repeat;
-    @extend %background-defaults;
-}
-
-.mjp-addran-bg {
-    background: $black url('../images/addran-desktop.jpg') center center no-repeat;
-    @extend %background-defaults;
-}
