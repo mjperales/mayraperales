@@ -18,7 +18,11 @@ MAIN NAVIGATION
 }
 
 .mjp-hamburger-box {
-  height: 20px;
+  /**
+   * Magic numbers are to align
+   * the text and hamburger icon
+   */
+  height: 22px;
   display: inline-block;
   float: right;
   position: relative;

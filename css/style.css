@@ -694,11 +694,6 @@ HELPER CLASSES
   }
 }
 
-.mjp-drop-shadow {
-  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
-  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
-}
-
 /******************************************************************
 Base Stylesheet
 ******************************************************************/
@@ -818,7 +813,7 @@ Layout
   }
 }
 
-.mjp-leadon-bg, .mjp-webstandards-bg {
+.mjp-leadon-bg, .mjp-webstandards-bg, .mjp-addran-bg {
   background-size: cover;
   height: 400px;
   width: 100%;
@@ -830,6 +825,10 @@ Layout
 
 .mjp-webstandards-bg {
   background: #111111 url("../images/webstandards-desktop.jpg") center center no-repeat;
+}
+
+.mjp-addran-bg {
+  background: #111111 url("../images/addran-desktop.jpg") center center no-repeat;
 }
 
 /******************************************************************
@@ -2571,7 +2570,11 @@ MAIN NAVIGATION
 }
 
 .mjp-hamburger-box {
-  height: 20px;
+  /**
+   * Magic numbers are to align
+   * the text and hamburger icon
+   */
+  height: 22px;
   display: inline-block;
   float: right;
   position: relative;
@@ -2782,6 +2785,20 @@ fieldset legend {
   margin: 0;
   margin-left: 4px;
   padding: 0 4px;
+}
+
+.mjp-cards {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.mjp-cards a {
+  display: block;
+  clear: both;
+}
+
+.mjp-modal {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
 }
 
 @media print {

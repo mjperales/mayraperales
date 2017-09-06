@@ -15,19 +15,23 @@ include 'header.php';
             TCU - Texas Christian University
         </p>
 
-        <div class="group unit size1of1 m-size1of1 mjp-top16 cf">
-            <div class="unit size5of8 m-size1of1 mjp-pad-l0">
-                <div class="mjp-leadon-bg mjp-drop-shadow"></div>
-                <a href="#">TCU Lead On Website</a>
+        <div class="group unit size1of1 m-size1of1 cf">
+            <div class="unit size5of8 m-size1of1 mjp-pad-l0 mjp-cards">
+                <div class="mjp-leadon-bg mjp-modal"></div>
+                <a class="mjp-top16" href="#">TCU Lead On Website</a>
             </div>
 
-            <div class="unit size3of8 m-size1of1 mjp-pad-r0">
-                <div class="mjp-webstandards-bg mjp-drop-shadow"></div>
-                <a href="#">TCU Web Standards</a>
+            <div class="unit size3of8 m-size1of1 mjp-pad-r0 mjp-cards">
+                <div class="mjp-webstandards-bg mjp-modal"></div>
+                <a class="mjp-top16" href="#">TCU Web Standards</a>
             </div>
+        </div>
 
+        <div class="unit size1of1 m-size1of1 mjp-pad-lr0 mjp-cards">
+            <div class="mjp-addran-bg mjp-modal"></div>
+            <a class="mjp-top16" href="#">Addran College of Liberal Arts</a>
         </div>
 
     </main><!-- end of .unit -->
-    
+
 <?php  include 'footer.php'; ?>
