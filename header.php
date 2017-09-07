@@ -31,6 +31,8 @@
         <meta name="MobileOptimized" content="320">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+        <meta name="description"  content="Web professional specializing in building user-friendly, accessible, and optimized websites that are progressively enhanced." />
+
         <?php // icons & favicons ?>
         <link rel="apple-touch-icon" href="images/apple-icon-touch.png">
         <link rel="icon" href="favicon.png">
