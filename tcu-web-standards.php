@@ -1,5 +1,5 @@
 <?php
-$pagetitle = 'TCU - Web Standards';
+$pagetitle = 'TCU - Web Standards Project';
 include 'header.php';
 ?>
 

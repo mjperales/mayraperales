@@ -1,5 +1,5 @@
 <?php
-$pagetitle = 'TCU - Web Standards';
+$pagetitle = 'TCU - AddRan College of Liberal Arts Project';
 include 'header.php';
 ?>
 
@@ -17,6 +17,14 @@ include 'header.php';
         <h3 class="unit h5 size1of1 m-size1of1 mjp-mar-t0 mjp-alignc">
             Role: Front &amp; Back End Developer
         </h3>
+
+        <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
+            <picture>
+                <source srcset="./images/addran-fullpage-desktop.jpg" media="(min-width: 1000px)">
+                <source srcset="./images/addran-fullpage-medium.jpg" media="(min-width: 700px)">
+                <img class="mjp-cards__image" src="./images/addran-fullpage-small.jpg" alt="TCU AddRan College of Liberal Arts">
+            </picture>
+        </div>
 
         <div class="group unit size1of1 m-size1of1 mjp-top64 cf">
             <div class="unit size3of8 m-size1of1 mjp-cards">
@@ -37,14 +45,6 @@ include 'header.php';
                 <p><a href="https://bitbucket.org/TCUWebmanage/tcu-department-child-theme">View the WordPress Theme code on Bitbucket</a></p>
             </div>
         </div><!-- end of .group -->
-
-        <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
-            <picture>
-                <source srcset="./images/addran-fullpage-desktop.jpg" media="(min-width: 1000px)">
-                <source srcset="./images/addran-fullpage-medium.jpg" media="(min-width: 700px)">
-                <img class="mjp-cards__image" src="./images/addran-fullpage-small.jpg" alt="TCU AddRan College of Liberal Arts">
-            </picture>
-        </div>
 
         <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
             <h4>TCU | Faculty &amp; Staff Directory</h4>

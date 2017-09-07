@@ -1,5 +1,5 @@
 <?php
-$pagetitle = 'TCU - Web Standards';
+$pagetitle = 'TCU - Lead On Project';
 include 'header.php';
 ?>
 
@@ -18,6 +18,14 @@ include 'header.php';
             Role: Front &amp; Back End Developer
         </h3>
 
+        <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
+            <picture>
+                <source srcset="./images/leadon-desktop-fullpage.jpg" media="(min-width: 1000px)">
+                <source srcset="./images/leadon-desktop-medium.jpg" media="(min-width: 700px)">
+                <img class="mjp-cards__image" src="./images/leadon-desktop-small.jpg" alt="TCU AddRan College of Liberal Arts">
+            </picture>
+        </div>
+
         <div class="group unit size1of1 m-size1of1 mjp-top64 cf">
             <div class="unit size3of8 m-size1of1 mjp-cards">
                 <h3 class="h2">
@@ -35,13 +43,6 @@ include 'header.php';
             </div>
         </div><!-- end of .group -->
 
-        <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
-            <picture>
-                <source srcset="./images/leadon-desktop-fullpage.jpg" media="(min-width: 1000px)">
-                <source srcset="./images/leadon-desktop-medium.jpg" media="(min-width: 700px)">
-                <img class="mjp-cards__image" src="./images/leadon-desktop-small.jpg" alt="TCU AddRan College of Liberal Arts">
-            </picture>
-        </div>
     </main><!-- end of .unit -->
 
 <?php  include 'footer.php'; ?>
