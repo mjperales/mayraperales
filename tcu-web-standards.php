@@ -40,11 +40,9 @@ include 'header.php';
 
                 <p>The elements reflect a university that’s whole is greater than the sum of its parts, and while there are many different audiences—a host of schools/colleges and departments—the guidelines outlined here create a common user experience and ensure that TCU is recognizable to all.</p>
 
-                <p>
-                    Visit the Web Standards website at <a href="http://brand.tcu.edu">http://brand.tcu.edu</a><br>
-                    View the WordPress Theme code on Bitbucket at <br>
-                    <a href="https://bitbucket.org/TCUWebmanage/tcu_web_standards">https://bitbucket.org/TCUWebmanage/tcu_web_standards</a>
-                </p>
+                <p><a href="http://brand.tcu.edu">Visit the Web Standards website</a></p>
+                <p><a href="https://bitbucket.org/TCUWebmanage/tcu_web_standards">View the WordPress Theme code on Bitbucket</a></p>
+
             </div>
         </div><!-- end of .group -->
 

@@ -51,16 +51,16 @@
 
         <div class="mjp-layout-container mjp-layoutwrap--transparent mjp-layout-constrain">
 
-            <header class="mjp-header unit size1of1 m-size1of1 cf" role="banner">
+            <header class="mjp-header unit size1of1 m-size1of1 mjp-below32 cf" role="banner">
 
-                <button class="mjp-button mjp-overlay-open mjp-button--transparent mjp-hamburger mjp-hamburger--squeeze cf" type="button">
+                <button class="mjp-button mjp-overlay-open mjp-button--transparent mjp-hamburger cf" type="button">
                     Menu
                     <span class="mjp-hamburger-box">
                         <span class="mjp-hamburger-inner"></span>
                     </span>
                 </button>
 
-                <div class="mjp-header__site-title">
+                <div class="mjp-header__site-title cf">
                     <h1 class="h2 mjp-mar-b0"><a aria-label="Go back to the homepage" href="./">Mayra Perales</a></h1>
                     <h2 class="h5 mjp-cabin mjp-mar-t0">Front &amp; Back End Developer</h2>
                 </div>

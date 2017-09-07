@@ -779,6 +779,16 @@ pre {
 /***********************
 Main Container
 ************************/
+.mjp-main .h2,
+.mjp-main h2 {
+  font-size: 1.6em;
+}
+@media screen and (min-width: 43.75em) {
+  .mjp-main .h2,
+  .mjp-main h2 {
+    font-size: 2.5rem;
+  }
+}
 .mjp-main a {
   font-weight: 700;
   display: inline;
@@ -966,13 +976,14 @@ Grid
 .mjp-header__site-title {
   float: none;
   clear: both;
-  margin-top: 16px;
+  margin-top: 32px;
   margin-left: 16px;
   text-align: center;
 }
 @media screen and (min-width: 30.0625em) {
   .mjp-header__site-title {
     float: left;
+    margin-top: 16px;
   }
 }
 .mjp-header__site-title a {

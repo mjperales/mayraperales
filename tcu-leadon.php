@@ -11,7 +11,7 @@ include 'header.php';
     ?>
     <main class="unit size1of1 m-size1of1 mjp-below16 cf mjp-main" id="main">
         <h2 class="unit size1of1 m-size1of1 mjp-mar-b0 mjp-alignc">
-            TCU | AddRan College of Liberal Arts
+            TCU | Lead On
         </h2>
 
         <h3 class="unit h5 size1of1 m-size1of1 mjp-mar-t0 mjp-alignc">
@@ -23,9 +23,6 @@ include 'header.php';
                 <h3 class="h2">
                     WordPress Theme <br>
                 </h3>
-
-                <h4>With custom build plugins like the Faculty &amp; Staff Directory</h4>
-
             </div>
 
             <div class="unit size5of8 m-size1of1">
@@ -33,25 +30,16 @@ include 'header.php';
 
                 <p>The elements reflect a university that’s whole is greater than the sum of its parts, and while there are many different audiences—a host of schools/colleges and departments—the guidelines outlined here create a common user experience and ensure that TCU is recognizable to all.</p>
 
-                <p><a href="http://addran.tcu.edu">Visit the AddRan College of Liberal Arts website</a></p>
-                <p><a href="https://bitbucket.org/TCUWebmanage/tcu-department-child-theme">View the WordPress Theme code on Bitbucket</a></p>
+                <p><a href="http://leadon.tcu.edu">Visit the Lead On website</a></p>
+                <p><a href="https://bitbucket.org/TCUWebmanage/tcu_commons_child_theme">View the WordPress Theme code on Bitbucket at</a></p>
             </div>
         </div><!-- end of .group -->
 
         <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
             <picture>
-                <source srcset="./images/addran-fullpage-desktop.jpg" media="(min-width: 1000px)">
-                <source srcset="./images/addran-fullpage-medium.jpg" media="(min-width: 700px)">
-                <img class="mjp-cards__image" src="./images/addran-fullpage-small.jpg" alt="TCU AddRan College of Liberal Arts">
-            </picture>
-        </div>
-
-        <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
-            <h4>TCU | Faculty &amp; Staff Directory</h4>
-            <picture>
-                <source srcset="./images/addran-faculty-staff-directory.jpg" media="(min-width: 1000px)">
-                <source srcset="./images/addran-faculty-staff-directory-medium.jpg" media="(min-width: 700px)">
-                <img class="mjp-cards__image" src="./images/addran-faculty-staff-directory-small.jpg" alt=" TCU Admissions Website">
+                <source srcset="./images/leadon-desktop-fullpage.jpg" media="(min-width: 1000px)">
+                <source srcset="./images/leadon-desktop-medium.jpg" media="(min-width: 700px)">
+                <img class="mjp-cards__image" src="./images/leadon-desktop-small.jpg" alt="TCU AddRan College of Liberal Arts">
             </picture>
         </div>
     </main><!-- end of .unit -->

@@ -41,7 +41,7 @@ module.exports = function(grunt) {
                         expand: true,
                         cwd: 'css/',
                         src: ['*.css', '!*.min.css'],
-                        dest: 'css/',
+                        dest: 'css/min/',
                         ext: '.min.css'
                     }
                 ]
@@ -63,31 +63,16 @@ module.exports = function(grunt) {
         },
         // Let's optimize our images and SVG files
         imagemin: {
-            // static: {
-            //     options: {
-            //         optimizationLevel: 7
-            //     },
-            //     files: {
-            //         'favicon.png': './favicon.png',
-            //         'screenshot.png': './screenshot.png'
-            //     }
-            // },
             dynamic: {
                 options: {
-                    optimizationLevel: 7,
-                    svgoPlugins: [
-                        {
-                            removeViewBox: false,
-                            removeAttrs: { attrs: ['xmlns'] }
-                        }
-                    ]
+                    optimizationLevel: 7
                 },
                 files: [
                     {
                         expand: true,
-                        cwd: 'images/',
-                        src: ['**/*.{png,jpg,jpeg,gif,svg}', '!sprite.symbol.svg'],
-                        dest: 'min/images/'
+                        cwd: './images/',
+                        src: ['**/*.{png,jpg,jpeg,gif}'],
+                        dest: './images/min'
                     }
                 ]
             }
@@ -172,8 +157,6 @@ module.exports = function(grunt) {
         'watch'
     ]);
 
-    // Image min
-    grunt.registerTask('imagemin', ['imagemin']);
     // SVG Icons
     grunt.registerTask('svg', ['svg_sprite']);
 };

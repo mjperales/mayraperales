@@ -9,7 +9,7 @@ include 'header.php';
      * main navigation link for accessibility
      */
     ?>
-    <main class="unit size1of1 m-size1of1 mjp-below16 cf" id="main">
+    <main class="unit size1of1 m-size1of1 mjp-below16 mjp-main cf" id="main">
         <p class="h2 unit size1of1 m-size1of1">
             I am a Web Developer at <br>
             TCU - Texas Christian University
