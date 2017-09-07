@@ -57,17 +57,11 @@ a {
         color: $black;
     }
 
-    &:focus {
+    &:focus,
+    &:active {
         color: $black;
         -webkit-box-shadow: $focus-black;
                 box-shadow: $focus-black;
-    }
-
-    /* on click */
-    &:active {
-        color: $secondary-blue;
-        -webkit-box-shadow: $focus-blue;
-                box-shadow: $focus-blue;
     }
 
     /* mobile tap color */
