@@ -104,7 +104,7 @@ Main Container
     }
     a {
         font-weight: $font-bold;
-        display: inline;
+        display: inline-block !important;
 
         &:hover {
             color: $black;

@@ -76,9 +76,9 @@
                     <a aria-hidden="true" href="#main" class="mjp-skip-nav mjp-visuallyhidden">Skip to main content</a>
                     <nav class="mjp-top-nav cf">
                     	<ul>
+                            <li><a href="./">Home</a></li>
                             <li><a href="./">Work</a></li>
                             <li><a href="./about-me.php">About</a></li>
-                            <li><a href="./contact-me.php">Contact</a></li>
                     	</ul>
                     </nav>
                 </div>
