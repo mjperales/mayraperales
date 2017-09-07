@@ -29,6 +29,12 @@ GENERAL STYLES
 body {
     background-color: $white;
     color: $black;
+
+    img {
+        height: auto;
+        margin: 0 0 $space-xs 0;
+        max-width: 100%;
+    }
 }
 
 hr {

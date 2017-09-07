@@ -4,14 +4,20 @@
     width: 100%;
 }
 
-// backgrounds
-.mjp-leadon-bg {
-    background: $black url('../images/leadon-desktop.jpg') center center no-repeat;
-    @extend %background-defaults;
-}
+/*
+ * Background for all our cards
+ * Use them as background images
+ * to switched the size depending
+ * on the device
+ */
 
+// Web Standards
 .mjp-webstandards-bg {
     background: $black url('../images/webstandards-desktop.jpg') center center no-repeat;
+    @extend %background-defaults;
+}
+.mjp-leadon-bg {
+    background: $black url('../images/leadon-desktop.jpg') center center no-repeat;
     @extend %background-defaults;
 }
 

@@ -16,7 +16,7 @@ include 'header.php';
         </p>
 
         <div class="unit size1of1 m-size1of1 mjp-cards">
-            <a href="#" class="mjp-webstandards-bg mjp-cards__image"></a>
+            <a href="./tcu-web-standards.php" class="mjp-webstandards-bg mjp-cards__image"></a>
             <a class="mjp-top16" href="#">TCU | Web Standards</a>
         </div>
 

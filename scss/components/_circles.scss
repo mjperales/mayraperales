@@ -1,0 +1,105 @@
+/******************************************************************
+CSS Circles - Use to display color palette
+******************************************************************/
+.tcu-circle-container {
+	-ms-flex-line-pack: justify;
+	align-content: space-around;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-flow: row wrap;
+	    -webkit-box-orient: horizontal;
+	    -webkit-box-direction: normal;
+	        flex-flow: row wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	justify-content: center;
+	margin-bottom: 1.3em;
+}
+
+/*circles for brand colors */
+.tcu-circle {
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 1em;
+	height: 250px;
+	text-align: center;
+	width: 250px;
+
+	p {
+		margin: 0 auto;
+	}
+}
+
+.tcu-circle--small {
+	border-radius: 50%;
+	display: block;
+	height: 110px;
+	margin: 1em auto;
+	width: 110px;
+}
+
+/* Primary Colors */
+.tcu-circle--purple {
+	background-color: $purple;
+	color: $white;
+}
+
+.tcu-circle--white {
+	background-color: $white;
+	border: 2px solid $horned-frog-grey;
+}
+
+.tcu-circle--black {
+	background-color: $black;
+	color: $white;
+}
+
+.tcu-circle--grey {
+	background-color: $horned-frog-grey;
+	color: $white;
+}
+
+/* Greys */
+.tcu-circle--textcolor { background-color: $text-color; }
+.tcu-circle--darkgrey  { background-color: $dark-grey; }
+.tcu-circle--grey { background-color: $grey; }
+.tcu-circle--lightgrey{ background-color: $light-grey; }
+.tcu-circle--lightgrey2 { background-color: $light-grey2; }
+
+/* Bold & Vibrant */
+.tcu-circle--orange {
+	background-color: $secondary-orange;
+}
+.tcu-circle--yellow {
+	background-color: $secondary-yellow;
+}
+.tcu-circle--aqua {
+	background-color: $secondary-aqua;
+}
+
+/* Executive */
+.tcu-circle--blue {
+	background-color: $secondary-blue;
+}
+.tcu-circle--brick {
+	background-color: $secondary-tan;
+}
+.tcu-circle--brown {
+	background-color: $secondary-brown;
+}
+
+/* Natural */
+.tcu-circle--green {
+	background-color: $secondary-green;
+}
+.tcu-circle--teal {
+	background-color: $secondary-teal;
+}

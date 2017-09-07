@@ -61,7 +61,7 @@
                 </button>
 
                 <div class="mjp-header__site-title">
-                    <h1 class="h2 mjp-mar-b0"><a aria-label="Go back to the homepage" href="/">Mayra Perales</a></h1>
+                    <h1 class="h2 mjp-mar-b0"><a aria-label="Go back to the homepage" href="./">Mayra Perales</a></h1>
                     <h2 class="h5 mjp-cabin mjp-mar-t0">Front &amp; Back End Developer</h2>
                 </div>
 

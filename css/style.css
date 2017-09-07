@@ -724,6 +724,11 @@ body {
   background-color: #FFFFFF;
   color: #111111;
 }
+body img {
+  height: auto;
+  margin: 0 0 4px 0;
+  max-width: 100%;
+}
 
 hr {
   background-color: #A3A9AC;
@@ -2532,18 +2537,24 @@ Tables
   border: 1px solid #999999;
 }
 
-.mjp-leadon-bg, .mjp-webstandards-bg, .mjp-addran-bg {
+.mjp-webstandards-bg, .mjp-leadon-bg, .mjp-addran-bg {
   background-size: cover;
   height: 500px;
   width: 100%;
 }
 
-.mjp-leadon-bg {
-  background: #111111 url("../images/leadon-desktop.jpg") center center no-repeat;
-}
-
+/*
+ * Background for all our cards
+ * Use them as background images
+ * to switched the size depending
+ * on the device
+ */
 .mjp-webstandards-bg {
   background: #111111 url("../images/webstandards-desktop.jpg") center center no-repeat;
+}
+
+.mjp-leadon-bg {
+  background: #111111 url("../images/leadon-desktop.jpg") center center no-repeat;
 }
 
 .mjp-addran-bg {
@@ -2811,6 +2822,130 @@ fieldset legend {
 }
 .mjp-cards__image:focus {
   outline: 1px dotted #111111;
+}
+
+/******************************************************************
+CSS Circles - Use to display color palette
+******************************************************************/
+.tcu-circle-container {
+  -ms-flex-line-pack: justify;
+  align-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 1.3em;
+}
+
+/*circles for brand colors */
+.tcu-circle {
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 1em;
+  height: 250px;
+  text-align: center;
+  width: 250px;
+}
+.tcu-circle p {
+  margin: 0 auto;
+}
+
+.tcu-circle--small {
+  border-radius: 50%;
+  display: block;
+  height: 110px;
+  margin: 1em auto;
+  width: 110px;
+}
+
+/* Primary Colors */
+.tcu-circle--purple {
+  background-color: #4D1979;
+  color: #FFFFFF;
+}
+
+.tcu-circle--white {
+  background-color: #FFFFFF;
+  border: 2px solid #A3A9AC;
+}
+
+.tcu-circle--black {
+  background-color: #111111;
+  color: #FFFFFF;
+}
+
+.tcu-circle--grey {
+  background-color: #A3A9AC;
+  color: #FFFFFF;
+}
+
+/* Greys */
+.tcu-circle--textcolor {
+  background-color: #4D4D4A;
+}
+
+.tcu-circle--darkgrey {
+  background-color: #777777;
+}
+
+.tcu-circle--grey {
+  background-color: #999999;
+}
+
+.tcu-circle--lightgrey {
+  background-color: #EEEEEE;
+}
+
+.tcu-circle--lightgrey2 {
+  background-color: #CCCCCC;
+}
+
+/* Bold & Vibrant */
+.tcu-circle--orange {
+  background-color: #F47D20;
+}
+
+.tcu-circle--yellow {
+  background-color: #F9D44B;
+}
+
+.tcu-circle--aqua {
+  background-color: #95DACF;
+}
+
+/* Executive */
+.tcu-circle--blue {
+  background-color: #5E88B4;
+}
+
+.tcu-circle--brick {
+  background-color: #E2d0A6;
+}
+
+.tcu-circle--brown {
+  background-color: #83603F;
+}
+
+/* Natural */
+.tcu-circle--green {
+  background-color: #969300;
+}
+
+.tcu-circle--teal {
+  background-color: #007B6E;
 }
 
 @media print {
