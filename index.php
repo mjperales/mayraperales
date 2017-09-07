@@ -22,8 +22,8 @@ include 'header.php';
 
         <div class="group unit size1of1 m-size1of1 cf">
             <div class="unit size5of8 m-size1of1 mjp-cards">
-                <a href="./addran-college.php" class="mjp-addran-bg mjp-cards__image"></a>
-                <a class="mjp-top16" href="./addran-college.php">TCU | Addran College of Liberal Arts</a>
+                <a href="./tcu-addran-college.php" class="mjp-addran-bg mjp-cards__image"></a>
+                <a class="mjp-top16" href="./tcu-addran-college.php">TCU | Addran College of Liberal Arts</a>
             </div>
 
             <div class="unit size3of8 m-size1of1 mjp-cards">

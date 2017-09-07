@@ -1,6 +1,6 @@
 %background-defaults {
-    background-size: cover;
-    height: 500px;
+    background-size:  cover;
+    height: 350px;
     width: 100%;
 }
 
@@ -13,15 +13,37 @@
 
 // Web Standards
 .mjp-webstandards-bg {
-    background: $black url('../images/webstandards-desktop.jpg') center center no-repeat;
-    @extend %background-defaults;
+    background: $black url('../images/webstandards-small.jpg') center center no-repeat;
+    background-size: cover;
+    height: 165px;
+    width: 100%;
+
+    @include media( $medium-screen ) {
+        background: $black url('../images/webstandards-medium.jpg') center center no-repeat;
+        background-size: cover;
+        height: 290px;
+    }
+
+    @include media( $large-screen ) {
+        background: $black url('../images/webstandards-desktop.jpg') center center no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
 }
 .mjp-leadon-bg {
     background: $black url('../images/leadon-desktop.jpg') center center no-repeat;
     @extend %background-defaults;
+
+    @include media( $large-screen ) {
+        height: 500px;
+    }
 }
 
 .mjp-addran-bg {
     background: $black url('../images/addran-desktop.jpg') center center no-repeat;
     @extend %background-defaults;
+
+    @include media( $large-screen ) {
+        height: 500px;
+    }
 }

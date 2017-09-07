@@ -2552,9 +2552,9 @@ Tables
   border: 1px solid #999999;
 }
 
-.mjp-webstandards-bg, .mjp-leadon-bg, .mjp-addran-bg {
+.mjp-leadon-bg, .mjp-addran-bg {
   background-size: cover;
-  height: 500px;
+  height: 350px;
   width: 100%;
 }
 
@@ -2565,15 +2565,42 @@ Tables
  * on the device
  */
 .mjp-webstandards-bg {
-  background: #111111 url("../images/webstandards-desktop.jpg") center center no-repeat;
+  background: #111111 url("../images/webstandards-small.jpg") center center no-repeat;
+  background-size: cover;
+  height: 165px;
+  width: 100%;
+}
+@media screen and (min-width: 43.75em) {
+  .mjp-webstandards-bg {
+    background: #111111 url("../images/webstandards-medium.jpg") center center no-repeat;
+    background-size: cover;
+    height: 290px;
+  }
+}
+@media screen and (min-width: 62.5em) {
+  .mjp-webstandards-bg {
+    background: #111111 url("../images/webstandards-desktop.jpg") center center no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
 }
 
 .mjp-leadon-bg {
   background: #111111 url("../images/leadon-desktop.jpg") center center no-repeat;
 }
+@media screen and (min-width: 62.5em) {
+  .mjp-leadon-bg {
+    height: 500px;
+  }
+}
 
 .mjp-addran-bg {
   background: #111111 url("../images/addran-desktop.jpg") center center no-repeat;
+}
+@media screen and (min-width: 62.5em) {
+  .mjp-addran-bg {
+    height: 500px;
+  }
 }
 
 /*********************
