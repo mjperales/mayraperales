@@ -49,7 +49,7 @@
         <?php // Our SVG Library - Do not remove! ?>
         <?php echo @file_get_contents("images/sprite.symbol.svg"); ?>
 
-        <div class="mjp-layout-container mjp-layout-constrain">
+        <div class="mjp-layout-container mjp-layoutwrap--transparent mjp-layout-constrain">
 
             <header class="mjp-header unit size1of1 m-size1of1 cf" role="banner">
 
@@ -76,9 +76,9 @@
                     <a aria-hidden="true" href="#main" class="mjp-skip-nav mjp-visuallyhidden">Skip to main content</a>
                     <nav class="mjp-top-nav cf">
                     	<ul>
-                            <li><a href="#">Work</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="./">Work</a></li>
+                            <li><a href="./about-me.php">About</a></li>
+                            <li><a href="./contact-me.php">Contact</a></li>
                     	</ul>
                     </nav>
                 </div>

@@ -88,3 +88,23 @@ pre {
     border: 1px solid $light-grey2;
     padding: $space-m;
 }
+
+/***********************
+Main Container
+************************/
+
+.mjp-main {
+    a {
+        font-weight: $font-bold;
+        display: inline;
+
+        &:hover {
+            color: $black;
+            border-bottom: 1px solid $black;
+        }
+
+        &:focus {
+            outline: 1px dotted $black;
+        }
+    }
+}

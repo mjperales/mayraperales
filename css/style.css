@@ -776,6 +776,21 @@ pre {
   padding: 16px;
 }
 
+/***********************
+Main Container
+************************/
+.mjp-main a {
+  font-weight: 700;
+  display: inline;
+}
+.mjp-main a:hover {
+  color: #111111;
+  border-bottom: 1px solid #111111;
+}
+.mjp-main a:focus {
+  outline: 1px dotted #111111;
+}
+
 /******************************************************************
 Layout
 ******************************************************************/
@@ -2804,7 +2819,6 @@ fieldset legend {
 }
 .mjp-cards a {
   display: block;
-  clear: both;
 }
 
 .mjp-cards__image {

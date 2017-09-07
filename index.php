@@ -17,18 +17,18 @@ include 'header.php';
 
         <div class="unit size1of1 m-size1of1 mjp-cards">
             <a href="./tcu-web-standards.php" class="mjp-webstandards-bg mjp-cards__image"></a>
-            <a class="mjp-top16" href="#">TCU | Web Standards</a>
+            <a class="mjp-top16" href="./tcu-web-standards.php">TCU | Web Standards</a>
         </div>
 
         <div class="group unit size1of1 m-size1of1 cf">
             <div class="unit size5of8 m-size1of1 mjp-cards">
-                <a href="#" class="mjp-addran-bg mjp-cards__image"></a>
-                <a class="mjp-top16" href="#">TCU | Addran College of Liberal Arts</a>
+                <a href="./addran-college.php" class="mjp-addran-bg mjp-cards__image"></a>
+                <a class="mjp-top16" href="./addran-college.php">TCU | Addran College of Liberal Arts</a>
             </div>
 
             <div class="unit size3of8 m-size1of1 mjp-cards">
-                <a  href="#" class="mjp-leadon-bg mjp-cards__image"></a>
-                <a class="mjp-top16" href="#">TCU | Lead On</a>
+                <a  href="./tcu-leadon.php" class="mjp-leadon-bg mjp-cards__image"></a>
+                <a class="mjp-top16" href="./tcu-leadon.php">TCU | Lead On</a>
             </div>
         </div>
 
