@@ -1291,6 +1291,42 @@ Tables
 /*********************
 MAIN NAVIGATION
 *********************/
+/* Give users the ability to skip nav
+* Accessibility element
+*/
+a.mjp-skip-nav {
+  color: #FFFFFF;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+}
+@media screen and (min-width: 43.75em) {
+  a.mjp-skip-nav {
+    top: 200px;
+    right: 20px;
+  }
+}
+a.mjp-skip-nav:focus {
+  left: 6px;
+  top: 200px;
+  height: auto;
+  width: 200px;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 23px 14px;
+  background: #EEEEEE;
+  color: #4D1979;
+  z-index: 100000;
+  line-height: normal;
+  text-decoration: none;
+  clip: auto;
+}
+
+.mjp-overlay {
+  position: relative;
+}
+
 .mjp-hamburger {
   background-color: transparent;
   cursor: pointer;

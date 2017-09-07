@@ -65,6 +65,8 @@
                     <h2 class="h5 mjp-cabin mjp-mar-t0">Front &amp; Back End Developer</h2>
                 </div>
 
+
+                <a aria-hidden="true" href="#main" class="mjp-skip-nav mjp-visuallyhidden">Skip to main content</a>
                 <div class="mjp-overlay mjp-overlay-hugeinc">
                     <button type="button" class="mjp-overlay-close">Close</button>
                     <?php
@@ -73,7 +75,6 @@
                      * include it in the main content
                      */
                     ?>
-                    <a aria-hidden="true" href="#main" class="mjp-skip-nav mjp-visuallyhidden">Skip to main content</a>
                     <nav class="mjp-top-nav cf">
                     	<ul>
                             <li><a href="./">Home</a></li>

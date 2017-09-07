@@ -1,6 +1,42 @@
 /*********************
 MAIN NAVIGATION
 *********************/
+/* Give users the ability to skip nav
+* Accessibility element
+*/
+a.mjp-skip-nav {
+    color: $white;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+
+    @include media( $medium-screen ) {
+        top: 200px;
+        right: 20px;
+    }
+
+    &:focus {
+        left: 6px;
+        top: 200px;
+        height: auto;
+        width: 200px;
+        display: block;
+        font-size: 14px;
+        font-weight: $font-bold;
+        padding: 15px 23px 14px;
+        background: $light-grey;
+        color: $purple;
+        z-index: 100000;
+        line-height: normal;
+        text-decoration: none;
+        clip: auto;
+    }
+}
+
+.mjp-overlay {
+    position: relative;
+}
+
 // Hamburger Button
 .mjp-hamburger {
   background-color: transparent;
