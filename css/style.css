@@ -970,14 +970,11 @@ Grid
 .mjp-header__site-title {
   float: none;
   clear: both;
-  margin-top: 32px;
-  margin-left: 16px;
   text-align: center;
 }
 @media screen and (min-width: 30.0625em) {
   .mjp-header__site-title {
     float: left;
-    margin-top: 16px;
   }
 }
 .mjp-header__site-title a {
@@ -1006,9 +1003,15 @@ BUTTONS
   display: inline-block;
   font-size: 1em;
   font-weight: 400;
+  margin-bottom: 64px;
   padding: 8px 16px;
   text-decoration: none !important;
   vertical-align: middle;
+}
+@media screen and (min-width: 62.5em) {
+  .mjp-button {
+    margin-bottom: 0;
+  }
 }
 .mjp-button:hover {
   text-decoration: none !important;
@@ -1270,6 +1273,27 @@ Tables
   }
 }
 
+.mjp-finearts-bg {
+  background: #111111 url("../images/department-graphic-design-small.jpg") center center no-repeat;
+  background-size: cover;
+  height: 165px;
+  width: 100%;
+}
+@media screen and (min-width: 43.75em) {
+  .mjp-finearts-bg {
+    background: #111111 url("../images/department-graphic-design-medium.jpg") center center no-repeat;
+    background-size: cover;
+    height: 290px;
+  }
+}
+@media screen and (min-width: 62.5em) {
+  .mjp-finearts-bg {
+    background: #111111 url("../images/department-graphic-design.jpg") center center no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+}
+
 .mjp-leadon-bg {
   background: #111111 url("../images/leadon-desktop.jpg") center center no-repeat;
 }
@@ -1332,13 +1356,12 @@ a.mjp-skip-nav:focus {
   cursor: pointer;
   display: inline-block;
   float: left;
-  margin: 16px;
   overflow: visible;
 }
 @media screen and (min-width: 30.0625em) {
   .mjp-hamburger {
     position: absolute;
-    top: 16px;
+    top: 0;
     right: 16px;
   }
 }

@@ -9,12 +9,10 @@
 .mjp-header__site-title {
     float: none;
     clear: both;
-    margin-top: $space-l;
-    margin-left: $space-m;
     text-align: center;
+
     @include media( $small-screen ) {
         float: left;
-        margin-top: $space-m;
     }
 
     a {

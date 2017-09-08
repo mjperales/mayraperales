@@ -51,7 +51,7 @@
         <?php // Our SVG Library - Do not remove! ?>
         <?php echo @file_get_contents("images/sprite.symbol.svg"); ?>
 
-        <div class="mjp-layout-container mjp-layoutwrap--transparent mjp-layout-constrain">
+        <div class="mjp-layout-container mjp-layoutwrap--transparent mjp-layout-constrain cf">
 
             <header class="mjp-header unit size1of1 m-size1of1 mjp-below32 cf" role="banner">
 
@@ -63,7 +63,7 @@
                 </button>
 
                 <div class="mjp-header__site-title cf">
-                    <h1 class="h2 mjp-mar-b0"><a aria-label="Go back to the homepage" href="./">Mayra Perales</a></h1>
+                    <h1 class="h2 mjp-mar-b0 mjp-mar-t0"><a aria-label="Go back to the homepage" href="./">Mayra Perales</a></h1>
                     <h2 class="h5 mjp-cabin mjp-mar-t0">Front &amp; Back End Developer</h2>
                 </div>
 

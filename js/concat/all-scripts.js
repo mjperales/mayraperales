@@ -4919,6 +4919,12 @@ if ( typeof define === 'function' && define.amd ) {
           swapClass(last_known_scroll_position);
           ticking = false;
         });
+
+        var cards = document.querySelectorAll('.mjp-cards');
+        cards.forEach(function(item){
+            Velocity(item, { opacity: 1, top: '50%' });
+            // Velocity(item, 'reverse');
+        });
       }
       ticking = true;
     });

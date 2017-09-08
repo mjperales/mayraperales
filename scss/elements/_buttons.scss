@@ -7,9 +7,14 @@ BUTTONS
     display: inline-block;
     font-size: 1em;
     font-weight: $font-normal;
+    margin-bottom: $space-xl;
     padding: $space-s $space-default;
     text-decoration: none !important;
     vertical-align: middle;
+
+    @include media( $large-screen ) {
+        margin-bottom: 0;
+    }
 
     &:hover {
         text-decoration: none !important;

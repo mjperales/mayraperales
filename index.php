@@ -32,6 +32,11 @@ include 'header.php';
             </div>
         </div>
 
+        <div class="unit size1of1 m-size1of1 mjp-cards">
+            <a href="./tcu-fine-arts.php" class="mjp-finearts-bg mjp-cards__image"></a>
+            <a class="mjp-top16" href="./tcu-fine-arts.php">TCU | College of Fine Arts</a>
+        </div>
+
     </main><!-- end of .unit -->
 
 <?php  include 'footer.php'; ?>

@@ -30,6 +30,25 @@
         height: 500px;
     }
 }
+
+.mjp-finearts-bg {
+    background: $black url('../images/department-graphic-design-small.jpg') center center no-repeat;
+    background-size: cover;
+    height: 165px;
+    width: 100%;
+
+    @include media( $medium-screen ) {
+        background: $black url('../images/department-graphic-design-medium.jpg') center center no-repeat;
+        background-size: cover;
+        height: 290px;
+    }
+
+    @include media( $large-screen ) {
+        background: $black url('../images/department-graphic-design.jpg') center center no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+}
 .mjp-leadon-bg {
     background: $black url('../images/leadon-desktop.jpg') center center no-repeat;
     @extend %background-defaults;

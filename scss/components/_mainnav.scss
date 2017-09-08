@@ -43,12 +43,11 @@ a.mjp-skip-nav {
   cursor: pointer;
   display: inline-block;
   float: left;
-  margin: $space-m;
   overflow: visible;
 
   @include media( $small-screen) {
         position: absolute;
-        top: $space-m;
+        top: 0;
         right: $space-m;
   }
 }
