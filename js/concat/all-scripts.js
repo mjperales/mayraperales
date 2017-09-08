@@ -4847,7 +4847,6 @@ if ( typeof define === 'function' && define.amd ) {
 }
 
 })( window );
-
 (function() {
     var triggerBttn = document.querySelector( 'button.mjp-hamburger' ),
     overlay = document.querySelector( 'div.mjp-overlay' ),
@@ -4900,15 +4899,15 @@ if ( typeof define === 'function' && define.amd ) {
     var last_known_scroll_position = 0;
     var ticking = false;
 
-    function swapClass(scroll_pos) {
+    function swapClass(scroll_pos, element) {
         if (scroll_pos > offset) {
-         	$back_to_top.classList.add('mjp-is-visible');
+         	element.classList.add('mjp-is-visible');
         } else {
-            $back_to_top.classList.remove('mjp-is-visible');
-            $back_to_top.classList.remove('mjp-fade-out');
+            element.classList.remove('mjp-is-visible');
+            element.classList.remove('mjp-fade-out');
         }
         if (scroll_pos > offset_opacity) {
-         	$back_to_top.classList.add('mjp-fade-out');
+         	element.classList.add('mjp-fade-out');
         }
     }
 
@@ -4916,14 +4915,8 @@ if ( typeof define === 'function' && define.amd ) {
       last_known_scroll_position = window.scrollY;
       if (!ticking) {
         window.requestAnimationFrame(function() {
-          swapClass(last_known_scroll_position);
+          swapClass(last_known_scroll_position, $back_to_top);
           ticking = false;
-        });
-
-        var cards = document.querySelectorAll('.mjp-cards');
-        cards.forEach(function(item){
-            Velocity(item, { opacity: 1, top: '50%' });
-            // Velocity(item, 'reverse');
         });
       }
       ticking = true;

@@ -6,6 +6,29 @@
         display: block;
     }
 }
+
+.mjp-cards.mjp-is-visible {
+    /* the button becomes visible */
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Effect 1: opacity */
+.mjp-cards.effect-1 {
+	-webkit-animation: fadeIn 0.65s ease forwards;
+	animation: fadeIn 0.65s ease forwards;
+}
+
+@-webkit-keyframes fadeIn {
+	0% { }
+	100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+	0% { }
+	100% { opacity: 1; }
+}
+
 .mjp-cards__image {
     -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
             box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
