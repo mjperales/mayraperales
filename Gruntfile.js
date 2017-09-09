@@ -55,7 +55,7 @@ module.exports = function(grunt) {
             options: {
                 syntax: require('postcss-scss'), // work with SCSS directly
                 processors: [
-                    require('autoprefixer')({ browsers: '> 5%, last 2 versions, Firefox ESR, Opera 12.1' }),
+                    require('autoprefixer')({ browsers: '> 5%, last 4 versions, Firefox ESR, Opera 12.1' }),
                     // require('pixrem')()
                 ]
             },
