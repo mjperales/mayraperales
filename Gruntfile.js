@@ -7,6 +7,9 @@ module.exports = function(grunt) {
                 src: [
                     'js/velocity.js',
                     'js/classie.js',
+                    'js/imagesloaded.pkgd.js',
+                    'js/AnimOnScroll.js',
+                    'js/masonry.pkgd.js',
                     'js/scripts.js'
                 ],
                 dest: 'js/concat/all-scripts.js'
@@ -126,8 +129,7 @@ module.exports = function(grunt) {
 
             scripts: {
                 files: [
-                    'js/classie.js',
-                    'js/scripts.js'
+                    'js/**.js',
                 ],
                 tasks: ['concat'],
                 options: {

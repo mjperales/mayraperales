@@ -77,4 +77,17 @@
         var $body = document.body;
         Velocity($body, 'scroll', { duration: scroll_top_duration, easing: 'spring', opacity: 1 });
     });
+    
+    /* Masonry */
+    var mjpMasonry = document.getElementById( 'mjp-masonry' );
+
+    if ( mjpMasonry == null ) { return; }
+
+    masonryNewsAnim = new AnimOnScroll( mjpMasonry, {
+        minDuration : 0.4,
+        maxDuration : 0.7,
+        viewportFactor : 0.2
+    });
+
+    masonryNewsAnim._init();
 })();

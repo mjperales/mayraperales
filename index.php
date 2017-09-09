@@ -15,27 +15,44 @@ include 'header.php';
             TCU - Texas Christian University
         </p>
 
-        <div class="unit size1of1 m-size1of1 mjp-cards">
-            <a href="./tcu-web-standards.php" class="mjp-webstandards-bg mjp-cards__image"></a>
-            <a class="mjp-top16" href="./tcu-web-standards.php">TCU | Web Standards</a>
-        </div>
-
-        <div class="group unit size1of1 m-size1of1 cf">
-            <div class="unit size5of8 m-size1of1 mjp-cards">
-                <a href="./tcu-addran-college.php" class="mjp-addran-bg mjp-cards__image"></a>
-                <a class="mjp-top16" href="./tcu-addran-college.php">TCU | Addran College of Liberal Arts</a>
-            </div>
-
-            <div class="unit size3of8 m-size1of1 mjp-cards">
-                <a  href="./tcu-leadon.php" class="mjp-leadon-bg mjp-cards__image"></a>
-                <a class="mjp-top16" href="./tcu-leadon.php">TCU | Lead On</a>
-            </div>
-        </div>
-
-        <div class="unit size1of1 m-size1of1 mjp-cards">
-            <a href="./tcu-fine-arts.php" class="mjp-finearts-bg mjp-cards__image"></a>
-            <a class="mjp-top16" href="./tcu-fine-arts.php">TCU | College of Fine Arts</a>
-        </div>
+        <ul id="mjp-masonry" class="mjp-unstyled-list effect-1 group size1of1 m-size1of1 mjp-masonry cf">
+            <li class="mjp-cards">
+                <picture>
+                    <source srcset="./images/webstandards-desktop.jpg" media="(min-width: 1000px)">
+                    <source srcset="./images/webstandards-medium.jpg" media="(min-width: 700px)">
+                    <img src="./images/webstandards-small.jpg" alt="TCU Web Standards">
+                </picture>
+                <div class="mjp-cards__content">
+                    <h2 class="h4">TCU | Web Standards</h2>
+                    <a aria-label="Learn more about TCU's web standards" class="mjp-top16 mjp-button mjp-button--transparent" href="./tcu-web-standards.php">Learn More</a>
+                </div>
+            </li>
+            <li class="mjp-cards">
+                <img src="./images/addran-desktop.jpg" alt="TCU AddRan College of Liberal Arts">
+                <div class="mjp-cards__content">
+                    <h2 class="h4">TCU | Addran College of Liberal Arts</h2>
+                    <a aria-label="Learn more about the College of Liberal Arts project" class="mjp-top16 mjp-button mjp-button--transparent" href="./tcu-addran-college.php">Learn More</a>
+                </div>
+            </li>
+            <li class="mjp-cards">
+                <img src="./images/leadon-desktop.jpg" alt="TCU Lead On">
+                <div class="mjp-cards__content">
+                    <h2 class="h4">TCU | Lead On</h2>
+                    <a aria-label="Lear more about the TCU Lead on project" class="mjp-top16 mjp-button mjp-button--transparent" href="./tcu-leadon.php">Learn More</a>
+                </div>
+            </li>
+            <li class="mjp-cards">
+                <picture>
+                    <source srcset="./images/finearts-phone.jpg" media="(min-width: 1000px)">
+                    <source srcset="./images/finearts-phone.jpg" media="(min-width: 700px)">
+                    <img src="./images/finearts-phone.jpg" alt="TCU College of Liberal Arts">
+                </picture>
+                <div class="mjp-cards__content">
+                    <h2 class="h4">TCU | College of Fine Arts</h2>
+                    <a aria-label="Learn more about the College of Fine Arts project" class="mjp-top16 mjp-button mjp-button--transparent" href="./tcu-fine-arts.php">Learn More</a>
+                </div>
+            </li>
+        </ul>
 
     </main><!-- end of .unit -->
 
