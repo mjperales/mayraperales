@@ -1463,6 +1463,7 @@ html.js .mjp-overlay-hugeinc.open {
   visibility: visible;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
+  z-index: 99;
 }
 html.js .mjp-overlay-hugeinc nav {
   -webkit-perspective: 1200px;

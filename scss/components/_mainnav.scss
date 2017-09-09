@@ -172,6 +172,7 @@ html.js {
     	visibility: visible;
     	-webkit-transition: opacity 0.5s;
     	transition: opacity 0.5s;
+        z-index: 99;
     }
 
     .mjp-overlay-hugeinc nav {
