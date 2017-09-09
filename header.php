@@ -42,7 +42,7 @@
         <?php // favicon.ico for IE10 win ?>
         <meta name="msapplication-TileColor" content="#FFFFFF">
         <meta name="msapplication-TileImage" content="images/win8-tile-icon.png">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.min.css">
         <link href="//fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
         <script type="text/javascript" src="js/modernizr.custom.min.js"></script>
     </head>
@@ -80,7 +80,6 @@
                     <nav class="mjp-top-nav cf">
                     	<ul>
                             <li><a href="./">Home</a></li>
-                            <li><a href="./">Work</a></li>
                             <li><a href="./about-me.php">About</a></li>
                     	</ul>
                     </nav>

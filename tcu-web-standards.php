@@ -17,17 +17,8 @@ include 'header.php';
         <h3 class="unit h5 size1of1 m-size1of1 mjp-mar-t0 mjp-alignc">
             Role: Front &amp; Back End Developer
         </h3>
-
-        <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
-            <picture>
-                <source srcset="./images/webstandards-generic-desktop.jpg" media="(min-width: 1000px)">
-                <source srcset="./images/mockup-all-devices-generic-medium.jpg" media="(min-width: 700px)">
-                <img class="mjp-cards__image" src="./images/mockup-all-devices-generic-small.jpg" alt=" TCU Admissions Website">
-            </picture>
-        </div>
-
-        <div class="group unit size1of1 m-size1of1 cf">
-            <div class="unit size3of8 m-size1of1 mjp-cards">
+        <div class="group unit size1of1 m-size1of1 mjp-top32 cf">
+            <div class="unit size3of8 m-size1of1">
                 <h3 class="h2">
                     Web Visual Guide <br>
                     for Developers
@@ -40,32 +31,64 @@ include 'header.php';
 
                 <p>The elements reflect a university that’s whole is greater than the sum of its parts, and while there are many different audiences—a host of schools/colleges and departments—the guidelines outlined here create a common user experience and ensure that TCU is recognizable to all.</p>
 
+                <p>
+                    This was a two year project between our web designer, graphic designer and me (web developer). We met weekly to discuss design, functionality and user experience. I built the pattern library that includes HTML, CSS, and JavaScript. Then I incorporated the pattern library into a parent theme.
+                </p>
+
+                <p><a href="https://brand.tcu.edu/web-standards/">Read more about our web standards</a></p>
+
                 <p><a href="http://brand.tcu.edu">Visit the Web Standards website</a></p>
                 <p><a href="https://bitbucket.org/TCUWebmanage/tcu_web_standards">View the WordPress Theme code on Bitbucket</a></p>
 
             </div>
         </div><!-- end of .group -->
 
-        <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
-            <h4>TCU | Standard Header</h4>
+        <div class="unit size1of1 m-size1of1 mjp-top32">
+            <h4>Putting it all together</h4>
             <picture>
-                <source srcset="./images/standard-header.jpg" media="(min-width: 1000px)">
-                <source srcset="./images/standard-header-medium.jpg" media="(min-width: 700px)">
-                <img class="mjp-cards__image" src="./images/standard-header-small.jpg" alt=" TCU Admissions Website">
+                <source srcset="./images/admissions-fullpage-desktop.jpg" media="(min-width: 1000px)">
+                <source srcset="./images/admissions-fullpage-medium.jpg" media="(min-width: 700px)">
+                <img class="mjp-cards" src="./images/admissions-fullpage-small.jpg" alt=" TCU Admissions Website">
             </picture>
         </div>
 
-        <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
-            <h4>TCU | Standard Footer</h4>
+        <div class="group unit size1of1 m-size1of1 mjp-top32 cf">
+            <div class="unit size3of8 m-size1of1">
+                <h4>TCU | Standard Header</h4>
+            </div>
+
+            <div class="unit size5of8 m-size1of1">
+                <p>The header contains the University’s signature in the top left corner that links back to the tcu.edu site. The design of the header should never be altered. For this reason the header.php file should never be modified and your child theme should never contain its own version.</p>
+            </div>
+        </div><!-- end of .group -->
+
+        <div class="unit size1of1 m-size1of1 mjp-top32">
+            <picture>
+                <source srcset="./images/standard-header.jpg" media="(min-width: 1000px)">
+                <source srcset="./images/standard-header-medium.jpg" media="(min-width: 700px)">
+                <img class="mjp-cards" src="./images/standard-header-small.jpg" alt=" TCU Admissions Website">
+            </picture>
+        </div>
+
+        <div class="group unit size1of1 m-size1of1 mjp-top32 cf">
+            <div class="unit size3of8 m-size1of1">
+                <h4>TCU | Standard Footer</h4>
+            </div>
+
+            <div class="unit size5of8 m-size1of1">
+                <p>The footer includes basic University information only, with three widget areas for individual units to display their word mark and list contact information as necessary. The design of the footer should never be altered. For this reason the footer.php file should never be modified and your child theme should never contain its own version.</p>
+            </div>
+        </div><!-- end of .group -->
+
+        <div class="unit size1of1 m-size1of1 mjp-top32">
             <picture>
                 <source srcset="./images/standard-footer.jpg" media="(min-width: 1000px)">
                 <source srcset="./images/standard-footer-medium.jpg" media="(min-width: 700px)">
-                <img class="mjp-cards__image" src="./images/standard-footer-small.jpg" alt=" TCU Admissions Website">
+                <img class="mjp-cards" src="./images/standard-footer-small.jpg" alt=" TCU Admissions Website">
             </picture>
         </div>
 
         <div class="unit size1of1 m-size1of1">
-            <h2 class="mjp-alignc">Web Site Style Guide</h2>
 
             <h4>PRIMARY COLORS</h4>
             <div class="tcu-circle-container">
@@ -100,15 +123,6 @@ include 'header.php';
                     RGB 0, 0, 0
                 </div><!-- end of .unit -->
             </div><!-- end of .circle-container -->
-        </div>
-
-        <div class="unit size1of1 m-size1of1 mjp-cards mjp-top32">
-            <h4>Putting it all together</h4>
-            <picture>
-                <source srcset="./images/admissions-fullpage-desktop.jpg" media="(min-width: 1000px)">
-                <source srcset="./images/admissions-fullpage-medium.jpg" media="(min-width: 700px)">
-                <img class="mjp-cards__image" src="./images/admissions-fullpage-small.jpg" alt=" TCU Admissions Website">
-            </picture>
         </div>
     </main><!-- end of .unit -->
 
