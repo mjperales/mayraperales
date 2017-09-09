@@ -2,8 +2,15 @@
 .mjp-masonry {
     .mjp-cards {
         float: left;
-        margin: $space-s;
-        width: 30%;
+        width: 100%;
+        @include media( $small-screen ) {
+            margin: $space-s;
+            width: 46%;
+        }
+
+        @include media( $large-screen ) {
+            width: 30%;
+        }
      }
 }
 

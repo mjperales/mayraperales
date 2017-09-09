@@ -1576,8 +1576,18 @@ fieldset legend {
 
 .mjp-masonry .mjp-cards {
   float: left;
-  margin: 8px;
-  width: 30%;
+  width: 100%;
+}
+@media screen and (min-width: 30.0625em) {
+  .mjp-masonry .mjp-cards {
+    margin: 8px;
+    width: 46%;
+  }
+}
+@media screen and (min-width: 62.5em) {
+  .mjp-masonry .mjp-cards {
+    width: 30%;
+  }
 }
 
 .mjp-cards {
