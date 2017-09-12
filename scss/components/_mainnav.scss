@@ -117,6 +117,15 @@ html.js {
     	color: transparent;
     	outline: none;
     	z-index: 100;
+
+        &:hover,
+        &:active {
+            color: $secondary-yellow;
+        }
+
+        &:focus {
+            outline: 1px dotted $white;
+        }
     }
 
     /* Menu style */
@@ -127,7 +136,8 @@ html.js {
     	height: 60%;
     	font-size: 54px;
     	-webkit-transform: translateY(-50%);
-    	transform: translateY(-50%);
+    	-ms-transform: translateY(-50%);
+    	    transform: translateY(-50%);
     }
 
     .mjp-overlay ul {
@@ -151,6 +161,7 @@ html.js {
     	display: block;
     	color: #fff;
     	-webkit-transition: color 0.2s;
+    	-o-transition: color 0.2s;
     	transition: color 0.2s;
     }
 
@@ -164,6 +175,7 @@ html.js {
     	opacity: 0;
     	visibility: hidden;
     	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    	-o-transition: opacity 0.5s, visibility 0s 0.5s;
     	transition: opacity 0.5s, visibility 0s 0.5s;
     }
 
@@ -171,6 +183,7 @@ html.js {
     	opacity: 1;
     	visibility: visible;
     	-webkit-transition: opacity 0.5s;
+    	-o-transition: opacity 0.5s;
     	transition: opacity 0.5s;
         z-index: 99;
     }
@@ -187,6 +200,7 @@ html.js {
     	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
     	-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
     	transition: opacity 0.5s, -webkit-transform 0.5s;
+    	-o-transition: transform 0.5s, opacity 0.5s;
     	transition: transform 0.5s, opacity 0.5s;
     	transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
     }

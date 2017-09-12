@@ -27,11 +27,11 @@ include 'header.php';
 
             <div class="unit size5of8 m-size1of1">
                 <p>
-                    The TCU Lead On campain was able to quickly use The Commons Child Theme for this project. Our web designer was able to quickly add different elements to the homepage to give it it's own personality.
+                    The TCU Lead On initiative was able to quickly use The Commons Child Theme for this project. Our web designer was able to quickly add different elements to the homepage to give it it's own personality.
                 </p>
 
-                <p><a href="http://leadon.tcu.edu">Visit the Lead On website</a></p>
-                <p><a href="https://bitbucket.org/TCUWebmanage/tcu_commons_child_theme">View the WordPress Theme code on Bitbucket</a></p>
+                <p><a target="_blank" href="http://leadon.tcu.edu">Visit the Lead On website</a></p>
+                <p><a target="_blank" href="https://bitbucket.org/TCUWebmanage/tcu_commons_child_theme">View the WordPress Theme code on Bitbucket</a></p>
             </div>
         </div><!-- end of .group -->
 

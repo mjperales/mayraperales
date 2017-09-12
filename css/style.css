@@ -1418,6 +1418,12 @@ html.js .mjp-overlay .mjp-overlay-close {
   outline: none;
   z-index: 100;
 }
+html.js .mjp-overlay .mjp-overlay-close:hover, html.js .mjp-overlay .mjp-overlay-close:active {
+  color: #F9D44B;
+}
+html.js .mjp-overlay .mjp-overlay-close:focus {
+  outline: 1px dotted #FFFFFF;
+}
 html.js .mjp-overlay nav {
   text-align: center;
   position: relative;
@@ -1425,6 +1431,7 @@ html.js .mjp-overlay nav {
   height: 60%;
   font-size: 54px;
   -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 html.js .mjp-overlay ul {
@@ -1446,6 +1453,7 @@ html.js .mjp-overlay ul li a {
   display: block;
   color: #fff;
   -webkit-transition: color 0.2s;
+  -o-transition: color 0.2s;
   transition: color 0.2s;
 }
 html.js .mjp-overlay ul li a:hover,
@@ -1456,12 +1464,14 @@ html.js .mjp-overlay-hugeinc {
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+  -o-transition: opacity 0.5s, visibility 0s 0.5s;
   transition: opacity 0.5s, visibility 0s 0.5s;
 }
 html.js .mjp-overlay-hugeinc.open {
   opacity: 1;
   visibility: visible;
   -webkit-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
   transition: opacity 0.5s;
   z-index: 99;
 }
@@ -1476,6 +1486,7 @@ html.js .mjp-overlay-hugeinc nav ul {
   -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: opacity 0.5s, -webkit-transform 0.5s;
+  -o-transition: transform 0.5s, opacity 0.5s;
   transition: transform 0.5s, opacity 0.5s;
   transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
@@ -1667,7 +1678,6 @@ html.no-js .mjp-masonry .mjp-cards {
   width: 100%;
   max-width: 360px;
   -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
   break-inside: avoid;
 }
 

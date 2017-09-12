@@ -14,7 +14,7 @@ include 'header.php';
         <div class="group unit size1of1 m-size1of1 mjp-top64 cf">
             <div class="unit size5of8 m-size1of1">
                 <h2>About Me</h2>
-                <p>I currently work at Texas Christian University as the lead web developer. I'm passionate about building progressively enhanced and accessible websites. I love learning new skills. I currently live in Fort Worth Texas with my wife and dog (Jovie). We are looking to move to Oregon. </p>
+                <p>Hi! I work at Texas Christian University as the lead web developer. I'm passionate about building progressively enhanced and accessible websites. I love learning new skills. Currently, I am learning how to build web application by using the Angular framework.  I live in Fort Worth Texas with my wife and dog (Jovie) but we hope to move out of Texas.</p>
             </div>
 
             <div class="unit size3of8 m-size1of1">

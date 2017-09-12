@@ -27,11 +27,11 @@ include 'header.php';
 
             <div class="unit size5of8 m-size1of1">
                 <p>
-                    The College of Fine Arts uses the Commons Child theme that I developed. The intention for this child-theme was to be able to add different elements to the homepage since we were going to be using it for all departments. This is a multisite install and it uses the Faculty &amp; Staff plugin, accordion plugin, and a custom widget plugins.
+                    The College of Fine Arts uses The Commons Child Theme that I developed. The intention for this child-theme was to be able to add different elements to the homepage since we were going to be using it for all departments. This is a multisite install and it uses the Faculty &amp; Staff plugin, accordion plugin, and other custom widget plugins.
                 </p>
 
-                <p><a href="http://finearts.tcu.edu">Visit the College of Fine Arts website</a></p>
-                <p><a href="https://bitbucket.org/TCUWebmanage/tcu_commons_child_theme">View the WordPress Theme code on Bitbucket at</a></p>
+                <p><a target="_blank" href="http://finearts.tcu.edu">Visit the College of Fine Arts website</a></p>
+                <p><a target="_blank" href="https://bitbucket.org/TCUWebmanage/tcu_commons_child_theme">View the WordPress Theme code on Bitbucket at</a></p>
             </div>
         </div><!-- end of .group -->
 
@@ -47,7 +47,7 @@ include 'header.php';
         <div class="unit size1of1 m-size1of1 mjp-top32">
             <h3>The Graphic Design Department</h3>
             <p>
-                Each department uses the same child-theme but use different elements of the theme to give it it's own personality.
+                Each department in The College of Fine Arts uses the same child-theme but they use different elements of the theme to give it it's own personality.
             </p>
             <picture>
                 <source srcset="./images/graphic-design-desktop.jpg" media="(min-width: 1000px)">

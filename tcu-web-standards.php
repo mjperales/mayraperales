@@ -35,10 +35,10 @@ include 'header.php';
                     This was a two year project between our web designer, graphic designer and me (web developer). We met weekly to discuss design, functionality and user experience. I built the pattern library that includes HTML, CSS, and JavaScript. Then I incorporated the pattern library into a parent theme.
                 </p>
 
-                <p><a href="https://brand.tcu.edu/web-standards/">Read more about our web standards</a></p>
+                <p><a target="_blank" href="https://brand.tcu.edu/web-standards/">Read more about our web standards</a></p>
 
-                <p><a href="http://brand.tcu.edu">Visit the Web Standards website</a></p>
-                <p><a href="https://bitbucket.org/TCUWebmanage/tcu_web_standards">View the WordPress Theme code on Bitbucket</a></p>
+                <p><a target="_blank" href="http://brand.tcu.edu">Visit the Web Standards website</a></p>
+                <p><a target="_blank" href="https://bitbucket.org/TCUWebmanage/tcu_web_standards">View the WordPress Theme code on Bitbucket</a></p>
 
             </div>
         </div><!-- end of .group -->

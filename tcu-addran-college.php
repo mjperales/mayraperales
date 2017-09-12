@@ -30,11 +30,11 @@ include 'header.php';
 
             <div class="unit size5of8 m-size1of1">
                 <p>
-                    The AddRan College of Liberal Arts uses the Academic Child theme that I developed. The intention for this child-theme was to be able to add different elements to the homepage since we were going to be using it for all departments. This is a multisite install and it uses the Faculty &amp; Staff plugin, accordion plugin, and a custom widget plugins.
+                    The AddRan College of Liberal Arts uses The Academic Child theme that I developed. The intention for this child-theme was to be able to add different elements to the homepage since we were going to be using it for all departments. This is a multisite install and it uses the Faculty &amp; Staff plugin, Accordion plugin, and other custom widget plugins.
                 </p>
 
-                <p><a href="http://addran.tcu.edu">Visit the AddRan College of Liberal Arts website</a></p>
-                <p><a href="https://bitbucket.org/TCUWebmanage/tcu-department-child-theme">View the WordPress Theme code on Bitbucket</a></p>
+                <p><a target="_blank" href="http://addran.tcu.edu">Visit the AddRan College of Liberal Arts website</a></p>
+                <p><a target="_blank" href="https://bitbucket.org/TCUWebmanage/tcu-department-child-theme">View the WordPress Theme code on Bitbucket</a></p>
             </div>
         </div><!-- end of .group -->
 
@@ -53,12 +53,12 @@ include 'header.php';
 
             <div class="unit size5of8 m-size1of1">
             <p>
-                The idea was to be able to list all Faculty/Staff for the college. We needed them all to live in the main multisite install but we wanted to easily display only faculty for each department within those websites.
+                The idea was to be able to list all Faculty/Staff for the college. We needed all faculty and staff to live in the main multisite install. We also needed to easily display only employees of each department within department websites. This was a great opportunity to use WordPress' taxonomy feature.
             </p>
             <p>
-                College Level: <a alt="AddRan Faculty &amp; Staff" href="https://addran.tcu.edu/faculty_staff/">Faculty &amp; Staff</a> <br>
-                Department Level: <a alt="AddRan Faculty &amp; Staff | Department of Economics" href="https://addran.tcu.edu/department/economics/">Faculty &amp; Staff</a> <br>
-                Areas of Study Level: <a alt="AddRan Faculty &amp; Staff | Asian Studies" href="https://addran.tcu.edu/areas_of_study/asian-studies/">Faculty &amp; Staff</a> <br>
+                College Level: <a target="_blank" alt="AddRan Faculty &amp; Staff" href="https://addran.tcu.edu/faculty_staff/">Faculty &amp; Staff</a> <br>
+                Department Level: <a target="_blank" alt="AddRan Faculty &amp; Staff | Department of Economics" href="https://addran.tcu.edu/department/economics/">Faculty &amp; Staff</a> <br>
+                Areas of Study Level: <a target="_blank" alt="AddRan Faculty &amp; Staff | Asian Studies" href="https://addran.tcu.edu/areas_of_study/asian-studies/">Faculty &amp; Staff</a> <br>
             </p>
             </div>
         </div><!-- end of .group -->

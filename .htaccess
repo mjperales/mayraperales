@@ -1,0 +1,15 @@
+Options -Multiviews
+
+RewriteEngine On
+RewriteBase /
+
+# Force search engines to use mayraperales.site
+RewriteCond %{HTTP_HOST} !^mayraperales\.site$
+RewriteRule ^(.*) http://mayraperales.site/$1 [R=301,L]
+
+# Specify search friendly URLs
+RewriteRule ^about-me$ /about-me.php [L]
+RewriteRule ^tcu-leadon$ /tcu-leadon.php [L]
+RewriteRule ^tcu-fine-arts$ /tcu-fine-arts.php [L]
+RewriteRule ^tcu-addran-college$ /tcu-addran-college.php [L]
+RewriteRule ^tcu-web-standards$ /tcu-web-standards.php [L]
